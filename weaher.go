@@ -12,7 +12,7 @@ import (
 const (
 	baseURL     = "http://dataservice.accuweather.com"
 	locationURL = "http://dataservice.accuweather.com/locations/v1"
-	forecastURL = "http://dataservice.accuweather.com/forecasts/v1"
+	forecastURL = "http://localhost:1478"
 )
 
 type Client struct {

@@ -1,17 +1,22 @@
 package goweather
 
+import (
+	"net/http"
+	"net/url"
+)
+
 type ForecastService struct {
 	client *Client
 }
 
 type Forecast struct {
 	Headline Headline
-	DailyForecasts []DailyForecasts
+	// DailyForecasts []DailyForecasts
 }
 
 type Headline struct {
-	EffectiveDate      string `json:"effective_date"`
-	EffectiveEpochDate int64  `json:"effective_epoch_date"`
+	EffectiveDate      string `json:"effectiveDate"`
+	EffectiveEpochDate int64  `json:"effectiveEpochDate"`
 	Severity           int32  `json:"severity"`
 	Text               string `json:"text"`
 	Category           string `json:"category"`
@@ -21,6 +26,28 @@ type Headline struct {
 	Link               string `json:"link"`
 }
 
-type DailyForecasts struct {
+/*type DailyForecasts struct {
+	Date string `json:"date"`
+}*/
 
+func (f *ForecastService) GetForeCast() (*Headline, *http.Response, error) {
+	// path := fmt.Sprintf("/cities/search?apikey=%s&q=%s", l.client.ApiKey, city)
+	//pull request denemesi
+	path := "/apiTest"
+
+	u, err := url.Parse(path)
+	if err != nil {
+		return nil, nil, err
+	}
+	req, err := f.client.NewRequest("GET", "forecast", u.String())
+	if err != nil {
+		return nil, nil, err
+	}
+
+	lResp := new(Headline)
+	resp, err := f.client.Do(req, lResp)
+	if err != nil {
+		return nil, resp, err
+	}
+	return lResp, resp, err
 }
