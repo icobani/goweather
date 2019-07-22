@@ -128,7 +128,7 @@ type Sources struct {
 
 func (l *LocationService) GetCity(city string) (*[]Locations, *http.Response, error) {
 	// path := fmt.Sprintf("/cities/search?apikey=%s&q=%s", l.client.ApiKey, city)
-
+	//pull request denemesi
 	path := "/cities/search?apikey=" + l.client.ApiKey + "&q=" + city
 	log.Println(path)
 	u, err := url.Parse(path)
