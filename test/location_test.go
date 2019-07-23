@@ -7,7 +7,7 @@ import (
 )
 
 func TestLocation(t *testing.T) {
-	apiKey := "EUCeE3zp9BHDZLQDkBU7Y6KvuI3HPozs"
+	apiKey := "Dl8ehKD1lCgL0GT6WCkGfRh9NtSn5GMO"
 
 	c := goweather.NewClient(nil, apiKey)
 
