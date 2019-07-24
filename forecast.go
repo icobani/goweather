@@ -331,5 +331,6 @@ func (f *ForecastService) GetForeCast(code string) (*Forecast, *http.Response, e
 	if err != nil {
 		return nil, resp, err
 	}
+
 	return fResp, resp, err
 }

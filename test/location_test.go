@@ -7,11 +7,11 @@ import (
 )
 
 func TestLocation(t *testing.T) {
-	apiKey := "Dl8ehKD1lCgL0GT6WCkGfRh9NtSn5GMO"
+	apiKey := "7RBCSvtkuAj3NAFkgkGkJdvy6wssq4q1"
 
 	c := goweather.NewClient(nil, apiKey)
 
-	response, _, err := c.Location.GetCity("istanbul")
+	response, _, err := c.Location.GetCity("Bakirkoy")
 	if err != nil {
 		log.Fatal(err)
 	}
