@@ -1,8 +1,12 @@
 package goweather
 
 import (
+	"encoding/json"
+	"io/ioutil"
+	"log"
 	"net/http"
 	"net/url"
+	"os"
 	"time"
 )
 
@@ -125,10 +129,45 @@ type Sources struct {
 	SourceId int32  `json:"sourceId,omitempty"`
 }
 
+/*type Weather struct {
+	CitySearch []CitySearch `json:"CitySearch"`
+}*/
+
+type CitySearch struct {
+	cityName string `json:"cityName"`
+	cityCode string `json:"cityCode"`
+}
+
+func (this *CitySearch) GetCity(city string) (CitySearch, error) {
+
+	return nil, nil
+}
+
 // /locations/v1/cities/search?apikey=EUCeE3zp9BHDZLQDkBU7Y6KvuI3HPozs&q=istanbul
-func (l *LocationService) GetCity(city string) (*[]Locations, *http.Response, error) {
-	// path := fmt.Sprintf("/cities/search?apikey=%s&q=%s", l.client.ApiKey, city)
-	//pull request denemesi
+func (l *LocationService) GetCity_(city string) ([]CitySearch, *http.Response, error) {
+
+	data := []CitySearch{}
+	/* json values READ - begin */
+
+	//file, _ := ioutil.ReadFile("./location.json")
+	f, err := os.Open("./location.json")
+	if err != nil {
+		log.Fatal(err)
+	}
+	bb, err := ioutil.ReadAll(f)
+	if err != nil {
+		log.Fatal(err)
+	}
+	err = json.Unmarshal(bb, &data)
+	if err != nil {
+		log.Fatal(err)
+	}
+	log.Printf(string(bb))
+
+	/* json values READ - end */
+
+	// Arama metniyle eşleşen bir şehir dizisi için bilgi döndürür.
+	// https://developer.accuweather.com/accuweather-locations-api/apis/get/locations/v1/cities/search
 	path := "/cities/search?apikey=" + l.client.ApiKey + "&q=" + city
 	u, err := url.Parse(path)
 	if err != nil {
@@ -144,5 +183,24 @@ func (l *LocationService) GetCity(city string) (*[]Locations, *http.Response, er
 	if err != nil {
 		return nil, resp, err
 	}
-	return lResp, resp, err
+
+	// HATAAAAAAAAAAAAAAAAAAAAAAAAA değerler gelmiyor.
+	locations := *lResp
+	data = append(data, CitySearch{
+		cityName: city,
+		cityCode: locations[0].Key,
+	})
+
+	/* json values WRITE - begin */
+
+	file, _ := json.Marshal(&locations)
+	err = ioutil.WriteFile("./location.json", file, 0777)
+	if err != nil {
+		log.Fatal(err)
+	}
+	// -----
+
+	/* json values WRITE - end */
+
+	return data, resp, err
 }

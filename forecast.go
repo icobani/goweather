@@ -314,6 +314,12 @@ type NIce struct {
 	UnitType int32   `json:"unitType,omitempty"`
 }
 
+// Belirli bir konum için günlük tahmin verilerini döndürür. Tahmin aramaları
+// bir konum anahtarı gerektirir. Lütfen istediğiniz konumun konum anahtarını
+// almak için Locations API'sini kullanın. Varsayılan olarak, saatlik tahmin
+// verilerinin kesilmiş bir sürümü döndürülür. Tam nesne url dizgisine "details = true"
+// iletilerek elde edilebilir.
+
 // /forecasts/v1/daily/1day/318251?apikey=EUCeE3zp9BHDZLQDkBU7Y6KvuI3HPozs
 func (f *ForecastService) GetForeCast(code string) (*Forecast, *http.Response, error) {
 	path := "/daily/1day/" + code + "?apikey=" + f.client.ApiKey
@@ -331,6 +337,11 @@ func (f *ForecastService) GetForeCast(code string) (*Forecast, *http.Response, e
 	if err != nil {
 		return nil, resp, err
 	}
+
+	/*fah := fResp.DailyForecasts[0].Temperature.Minimum.Value
+	cel := fah2cel(fah)
+	fResp.DailyForecasts[0].Temperature.Minimum.Value = cel
+	fResp.DailyForecasts[0].Temperature.Minimum.Unit  = "C"*/
 
 	return fResp, resp, err
 }

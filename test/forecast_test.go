@@ -11,11 +11,11 @@ import (
 )
 
 func TestForeCast(t *testing.T) {
-	apiKey := "7RBCSvtkuAj3NAFkgkGkJdvy6wssq4q1"
+	apiKey := "Z2dcCn8Kr5PDC6Eylj0tRbCSyjrBPlsJ"
 	isFile := false
 
 	c := goweather.NewClient(nil, apiKey)
-	var code string = "31822311"
+	var code string = "318223"
 
 	// Daha önce aranan code var ise onu code'a göre dosyaya kaydediyor. Eğer yok ise aranan
 	// code.json dosyası oluşturuyor.
@@ -37,7 +37,6 @@ func TestForeCast(t *testing.T) {
 		}
 	}
 	if !isFile {
-		log.Println("asdasd")
 		response, _, err := c.Forecast.GetForeCast(code)
 		if err != nil {
 			log.Fatal(err)
