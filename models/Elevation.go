@@ -9,6 +9,6 @@
 package models
 
 type Elevation struct {
-	Metric   Metric
-	Imperial Imperial
+	Metric   Metric   `json:"Metric"`
+	Imperial Imperial `json:"Imperial"`
 }

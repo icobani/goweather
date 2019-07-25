@@ -9,7 +9,7 @@
 package models
 
 type Regions struct {
-	ID            string `json:"id,omitempty"`
+	ID            string `json:"ID,omitempty"`
 	LocalizedName string `json:"LocalizedName,omitempty"`
-	EnglishName   string `json:"englishName,omitempty"`
+	EnglishName   string `json:"EnglishName,omitempty"`
 }

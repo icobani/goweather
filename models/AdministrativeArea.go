@@ -9,11 +9,11 @@
 package models
 
 type AdministrativeArea struct {
-	ID            string `json:"id,omitempty"`
-	LocalizedName string `json:"localizedName,omitempty"`
-	EnglishName   string `json:"englishName,omitempty"`
-	Level         int32  `json:"level,omitempty"`
-	LocalizedType string `json:"localizedType,omitempty"`
-	EnglishType   string `json:"englishType,omitempty"`
-	CountryID     string `json:"countryId,omitempty"`
+	ID            string `json:"ID,omitempty"`
+	LocalizedName string `json:"LocalizedName,omitempty"`
+	EnglishName   string `json:"EnglishName,omitempty"`
+	Level         int32  `json:"Level,omitempty"`
+	LocalizedType string `json:"LocalizedType,omitempty"`
+	EnglishType   string `json:"EnglishType,omitempty"`
+	CountryID     string `json:"CountryID,omitempty"`
 }

@@ -9,20 +9,20 @@
 package models
 
 type Location struct {
-	Version                int32  `json:"Version,omitempty"`
-	Key                    string `json:"key,omitempty"`
-	Type                   string `json:"type,omitempty"`
-	Rank                   int32  `json:"rank,omitempty"`
-	LocalizedName          string `json:"LocalizedName,omitempty"`
-	EnglishName            string `json:"EnglishName,omitempty"`
-	PrimaryPostalCode      string `json:"PrimaryPostalCode,omitempty"`
-	Region                 Regions
-	Country                Country
-	AdministrativeArea     AdministrativeArea
-	TimeZone               TimeZone
-	GeoPosition            GeoPosition
-	IsAlias                bool `json:"ıs_alias,omitempty"`
-	SupplementalAdminAreas []SupplementalAdminAreas
-	DataSets               []string `json:"data_sets,omitempty"`
-	Details                Details
+	Version                int32                    `json:"Version,omitempty"`
+	Key                    string                   `json:"Key,omitempty"`
+	Type                   string                   `json:"Type,omitempty"`
+	Rank                   int32                    `json:"Rank,omitempty"`
+	LocalizedName          string                   `json:"LocalizedName,omitempty"`
+	EnglishName            string                   `json:"EnglishName,omitempty"`
+	PrimaryPostalCode      string                   `json:"PrimaryPostalCode,omitempty"`
+	Region                 Regions                  `json:"Region"`
+	Country                Country                  `json:"Country"`
+	AdministrativeArea     AdministrativeArea       `json:"AdministrativeArea"`
+	TimeZone               TimeZone                 `json:"TimeZone"`
+	GeoPosition            GeoPosition              `json:"GeoPosition"`
+	IsAlias                bool                     `json:"IsAlias,omitempty"`
+	SupplementalAdminAreas []SupplementalAdminAreas `json:"SupplementalAdminAreas"`
+	DataSets               []string                 `json:"DataSets,omitempty"`
+	Details                Details                  `json:"Details"`
 }

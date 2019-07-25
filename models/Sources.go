@@ -9,7 +9,7 @@
 package models
 
 type Sources struct {
-	DataType string `json:"dataType,omitempty"`
-	Source   string `json:"source,omitempty"`
-	SourceId int32  `json:"sourceId,omitempty"`
+	DataType string `json:"DataType,omitempty"`
+	Source   string `json:"Source,omitempty"`
+	SourceId int32  `json:"SourceId,omitempty"`
 }

@@ -9,7 +9,7 @@
 package models
 
 type SupplementalAdminAreas struct {
-	Level         int32  `json:"level,omitempty"`
-	LocalizedName string `json:"localizedName,omitempty"`
-	EnglishName   string `json:"englishName,omitempty"`
+	Level         int32  `json:"Level,omitempty"`
+	LocalizedName string `json:"LocalizedName,omitempty"`
+	EnglishName   string `json:"EnglishName,omitempty"`
 }

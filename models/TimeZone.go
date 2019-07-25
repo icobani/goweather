@@ -11,9 +11,9 @@ package models
 import "time"
 
 type TimeZone struct {
-	Code             string    `json:"code,omitempty"`
-	Name             string    `json:"name,omitempty"`
-	GmtOffset        float32   `json:"gmtOffset,omitempty"`
-	IsDaylightSaving bool      `json:"ısDaylightSaving,omitempty"`
-	NextOffsetChange time.Time `json:"nextOffsetChange,omitempty"`
+	Code             string    `json:"Code,omitempty"`
+	Name             string    `json:"Name,omitempty"`
+	GmtOffset        float32   `json:"GMTOffset,omitempty"`
+	IsDaylightSaving bool      `json:"IsDaylightSaving,omitempty"`
+	NextOffsetChange time.Time `json:"NextOffsetChange,omitempty"`
 }
