@@ -32,8 +32,9 @@ type ErrorStruct struct {
 	Error string
 }
 
-func (this GoWather) New(ApiKeys string, city string) (*ErrorStruct, *GoWather) {
-
+func (this GoWather) New(ApiKeys string, city string, district string) (*ErrorStruct, *GoWather) {
+	city = fixEnglishChars(city)
+	district = fixEnglishChars(district)
 	if ApiKeys == "" {
 		return &ErrorStruct{"Api Key is cannot empty"}, nil
 	}
@@ -62,22 +63,28 @@ func (this GoWather) New(ApiKeys string, city string) (*ErrorStruct, *GoWather) 
 	}
 
 	if city != "" {
-		err := returnVal.SetLocation(city)
+		err := returnVal.SetLocation(city, district)
 		if err != nil {
 			return err, nil
 		}
+		returnVal.SetForecast()
 	}
 	return nil, returnVal
 }
 
-func (this *GoWather) SetLocation(city string) *ErrorStruct {
+func (this *GoWather) SetForecast() {
+	// TODO: Kamil ilgili kodu buraya yazmalısın.
+
+}
+
+func (this *GoWather) SetLocation(city string, district string) *ErrorStruct {
 	var savedlocations []models.Location
 
 	fileIsExist, savedlocations := readLocations()
 	if fileIsExist {
 		// Sorun yok.
 		for _, item := range savedlocations {
-			if item.LocalizedName == city {
+			if item.AdministrativeArea.EnglishName == city && item.EnglishName == district {
 				this.Location = item
 				return nil
 			}
@@ -88,7 +95,7 @@ func (this *GoWather) SetLocation(city string) *ErrorStruct {
 	res, err := resty.R().
 		SetQueryParams(map[string]string{
 			"apikey": this.GetApiKey(),
-			"q":      city,
+			"q":      city + " " + district,
 		}).
 		SetHeader("Content-Type", "application/json").
 		Get(this.LocationURL)
@@ -107,7 +114,7 @@ func (this *GoWather) SetLocation(city string) *ErrorStruct {
 		if fileIsExist {
 			// Demekki dosya var ama içinde aradığımmız zaman bizim location'ı bulamadık.
 			// bu durumda dosyaya yeni bulduğumuz location'e da ekleyebiliriz.
-			savedlocations = append(savedlocations, locations[0])
+			savedlocations = append(savedlocations, fixEngCharOnLocation(locations[0]))
 			errs := writeLocations(savedlocations)
 			if errs != nil {
 				return errs
@@ -123,6 +130,30 @@ func (this *GoWather) SetLocation(city string) *ErrorStruct {
 		return &ErrorStruct{"City name is missing"}
 	}
 	return nil
+}
+
+func fixEnglishChars(val string) string {
+
+	val = strings.Replace(val, "ğ", "g", 100)
+	val = strings.Replace(val, "ü", "u", 100)
+	val = strings.Replace(val, "ş", "s", 100)
+	val = strings.Replace(val, "ı", "i", 100)
+	val = strings.Replace(val, "ö", "o", 100)
+	val = strings.Replace(val, "ç", "c", 100)
+
+	val = strings.Replace(val, "Ğ", "G", 100)
+	val = strings.Replace(val, "Ü", "U", 100)
+	val = strings.Replace(val, "Ş", "S", 100)
+	val = strings.Replace(val, "İ", "I", 100)
+	val = strings.Replace(val, "Ö", "O", 100)
+	val = strings.Replace(val, "Ç", "C", 100)
+	return val
+}
+
+func fixEngCharOnLocation(val models.Location) models.Location {
+	val.EnglishName = fixEnglishChars(val.EnglishName)
+	val.AdministrativeArea.EnglishName = fixEnglishChars(val.AdministrativeArea.EnglishName)
+	return val
 }
 
 func fileIsExists(name string) bool {
