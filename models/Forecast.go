@@ -5,6 +5,7 @@
 package models
 
 type Forecast struct {
-	Headline       Headline
-	DailyForecasts []DailyForecasts
+	Key            string           `json:"Key"`
+	Headline       Headline         `json:"Headline"`
+	DailyForecasts []DailyForecasts `json:"DailyForecasts"`
 }

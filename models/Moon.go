@@ -5,10 +5,10 @@
 package models
 
 type Moon struct {
-	Rise      string `json:"rise,omitempty"`
-	EpochRise int64  `json:"epochRise,omitempty"`
-	Set       string `json:"set,omitempty"`
-	EpochSet  int64  `json:"epochSet,omitempty"`
-	Phase     string `json:"phase,omitempty"`
-	Age       int32  `json:"age,omitempty"`
+	Rise      string `json:"Rise,omitempty"`
+	EpochRise int64  `json:"EpochRise,omitempty"`
+	Set       string `json:"Set,omitempty"`
+	EpochSet  int64  `json:"EpochSet,omitempty"`
+	Phase     string `json:"Phase,omitempty"`
+	Age       int32  `json:"Age,omitempty"`
 }

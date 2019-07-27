@@ -5,7 +5,7 @@
 package models
 
 type NWGSpeed struct {
-	Value    float64 `json:"value,omitempty"`
-	Unit     string  `json:"unit,omitempty"`
-	UnitType int32   `json:"unitType,omitempty"`
+	Value    float64 `json:"Value,omitempty"`
+	Unit     string  `json:"Unit,omitempty"`
+	UnitType int32   `json:"UnitType,omitempty"`
 }

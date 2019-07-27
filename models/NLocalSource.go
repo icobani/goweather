@@ -5,7 +5,7 @@
 package models
 
 type NLocalSource struct {
-	Id          int32  `json:"ıd,omitempty"`
-	Name        string `json:"name,omitempty"`
-	WeatherCode string `json:"weatherCode,omitempty"`
+	Id          int32  `json:"Id,omitempty"`
+	Name        string `json:"Name,omitempty"`
+	WeatherCode string `json:"WeatherCode,omitempty"`
 }

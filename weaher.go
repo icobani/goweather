@@ -14,10 +14,10 @@ import (
 const (
 	baseURL     = "http://dataservice.accuweather.com"
 	locationURL = baseURL + "/locations/v1/cities/search"
-	forecastURL = baseURL + "/forecasts/v1"
+	forecastURL = baseURL + "/forecasts/v1/daily/1day"
 )
 
-// A GoWather manages communication with the OneSignal API.
+// A GoWather manages communication with the AccuWeather API
 type GoWather struct {
 	BaseURL      string                `json:"base_url"`
 	LocationURL  string                `json:"location_url"`
@@ -33,13 +33,20 @@ type ErrorStruct struct {
 }
 
 func (this GoWather) New(ApiKeys string, city string, district string) (*ErrorStruct, *GoWather) {
+	// English Characters setting begin
 	city = fixEnglishChars(city)
 	district = fixEnglishChars(district)
+	// English Characters setting end
+
+	// apiKeys controllers begin
 	if ApiKeys == "" {
 		return &ErrorStruct{"Api Key is cannot empty"}, nil
 	}
+	// apiKeys controllers end
 
+	// apiKeys usages beging
 	KeyUsages := SetApiKeys(ApiKeys)
+	// apiKeys usages end
 
 	// Resty Default setup
 	resty.
@@ -62,76 +69,17 @@ func (this GoWather) New(ApiKeys string, city string, district string) (*ErrorSt
 		ForecastURL:  forecastURL,
 	}
 
-	if city != "" {
+	if city != "" && district != "" {
 		err := returnVal.SetLocation(city, district)
+		returnVal.SetForecast()
 		if err != nil {
 			return err, nil
 		}
-		returnVal.SetForecast()
 	}
 	return nil, returnVal
 }
 
-func (this *GoWather) SetForecast() {
-	// TODO: Kamil ilgili kodu buraya yazmalısın.
-
-}
-
-func (this *GoWather) SetLocation(city string, district string) *ErrorStruct {
-	var savedlocations []models.Location
-
-	fileIsExist, savedlocations := readLocations()
-	if fileIsExist {
-		// Sorun yok.
-		for _, item := range savedlocations {
-			if item.AdministrativeArea.EnglishName == city && item.EnglishName == district {
-				this.Location = item
-				return nil
-			}
-		}
-	}
-
-	// TODO : Eğer kayıtlarımızda yok ise apiden soracağız.
-	res, err := resty.R().
-		SetQueryParams(map[string]string{
-			"apikey": this.GetApiKey(),
-			"q":      city + " " + district,
-		}).
-		SetHeader("Content-Type", "application/json").
-		Get(this.LocationURL)
-
-	if err != nil {
-		return &ErrorStruct{err.Error()}
-	}
-
-	var locations []models.Location
-	err = json.Unmarshal(res.Body(), &locations)
-	if err != nil {
-		return &ErrorStruct{err.Error()}
-	}
-	if len(locations) > 0 {
-		this.Location = locations[0]
-		if fileIsExist {
-			// Demekki dosya var ama içinde aradığımmız zaman bizim location'ı bulamadık.
-			// bu durumda dosyaya yeni bulduğumuz location'e da ekleyebiliriz.
-			savedlocations = append(savedlocations, fixEngCharOnLocation(locations[0]))
-			errs := writeLocations(savedlocations)
-			if errs != nil {
-				return errs
-			}
-		} else {
-			errs := writeLocations(locations)
-			if errs != nil {
-				return errs
-			}
-		}
-
-	} else {
-		return &ErrorStruct{"City name is missing"}
-	}
-	return nil
-}
-
+// English Characters functions begin
 func fixEnglishChars(val string) string {
 
 	val = strings.Replace(val, "ğ", "g", 100)
@@ -156,6 +104,9 @@ func fixEngCharOnLocation(val models.Location) models.Location {
 	return val
 }
 
+// English Characters functions end
+
+// Is there file begin
 func fileIsExists(name string) bool {
 	if _, err := os.Stat(name); err != nil {
 		if os.IsNotExist(err) {
@@ -163,6 +114,65 @@ func fileIsExists(name string) bool {
 		}
 	}
 	return true
+}
+
+// Is there file end
+
+// Locations Apı begin
+func (this *GoWather) SetLocation(city string, district string) *ErrorStruct {
+	var savedlocations []models.Location
+
+	fileIsExist, savedlocations := readLocations()
+	if fileIsExist {
+		// Sorun yok.
+		for _, item := range savedlocations {
+			if item.AdministrativeArea.EnglishName == city && item.EnglishName == district {
+				this.Location = item
+				return nil
+			}
+		}
+	}
+
+	// TODO : Eğer kayıtlarımızda yok ise apiden soracağız.
+	res, err := resty.R().
+		SetQueryParams(map[string]string{
+			"apikey": this.GetApiKey(),
+			"q":      city + " " + district,
+		}).
+		SetHeader("Content-Type", "application/json").
+		Get(this.LocationURL)
+	//log.Println("aaaa0\n",res)
+	if err != nil {
+		return &ErrorStruct{err.Error()}
+	}
+
+	var locations []models.Location
+	err = json.Unmarshal(res.Body(), &locations)
+	if err != nil {
+		return &ErrorStruct{err.Error()}
+	}
+	if len(locations) > 0 {
+		this.Location = locations[0]
+		if fileIsExist {
+			// Demekki dosya var ama içinde aradığımmız zaman bizim location'ı bulamadık.
+			// bu durumda dosyaya yeni bulduğumuz location'e da ekleyebiliriz.
+
+			savedlocations = append(savedlocations, fixEngCharOnLocation(locations[0]))
+			errs := writeLocations(savedlocations)
+			if errs != nil {
+				return errs
+			}
+		} else {
+			errs := writeLocations(locations)
+			if errs != nil {
+				return errs
+			}
+		}
+
+	} else {
+		return &ErrorStruct{"City name is missing"}
+	}
+	return nil
 }
 
 func readLocations() (bool, []models.Location) {
@@ -177,25 +187,6 @@ func readLocations() (bool, []models.Location) {
 			return false, nil
 		}
 		return true, locations
-
-	} else {
-		return false, nil
-	}
-}
-
-func readApiKeyUsages() (bool, []models.ApiKeyUsages) {
-	var apiKeyUsages []models.ApiKeyUsages
-	var fileIsExist bool
-	fileIsExist = fileIsExists("apiKeyUsages.json")
-	if fileIsExist {
-		file, _ := ioutil.ReadFile("apiKeyUsages.json")
-		err := json.Unmarshal([]byte(file), &apiKeyUsages)
-
-		if err != nil {
-			return false, nil
-		}
-		return true, apiKeyUsages
-
 	} else {
 		return false, nil
 	}
@@ -211,16 +202,82 @@ func writeLocations(locations []models.Location) *ErrorStruct {
 	return nil
 }
 
-func writeApiKeyUsages(apiKeyUsages []models.ApiKeyUsages) *ErrorStruct {
-	var err = os.Remove("apiKeyUsages.json")
-	fileBody, _ := json.MarshalIndent(apiKeyUsages, "", " ")
-	err = ioutil.WriteFile("apiKeyUsages.json", fileBody, 0644)
+// Locations Apı end
+
+// Forecast Apı begin
+func (this *GoWather) SetForecast() *ErrorStruct {
+	//var savedForecast []models.Forecast
+	fileIsExist := fileIsExists("forecast.json")
+
+	savedForecast := readForecast()
+	if fileIsExist {
+		for _, item := range savedForecast {
+			if this.Location.Key == item.Key {
+				this.ForeCast = item
+				return nil
+			}
+		}
+	}
+
+	res, err := resty.R().SetQueryParams(map[string]string{
+		"apikey": this.GetApiKey(),
+	}).SetHeader("Content-Type", "application/json").Get(this.ForecastURL + "/" + this.Location.Key)
+
+	if err != nil {
+		return &ErrorStruct{err.Error()}
+	}
+
+	var forecast []models.Forecast
+	err = json.Unmarshal(res.Body(), &forecast)
+	if err != nil {
+		return &ErrorStruct{err.Error()}
+	}
+
+	if fileIsExist {
+		//var savedForceCast []models.Forecast
+		savedForceCast := readForecast()
+		if savedForceCast == nil {
+			return &ErrorStruct{err.Error() + "Bir hata oluştu."}
+		}
+
+		savedForceCast = append(savedForceCast, forecast[0])
+		errs := writeForecasts(savedForceCast)
+		if errs != nil {
+			return errs
+		}
+	} else {
+		errs := writeForecasts(forecast)
+		if errs != nil {
+			return errs
+		}
+	}
+	return nil
+}
+
+func readForecast() []models.Forecast {
+	var forecast []models.Forecast
+	file, _ := ioutil.ReadFile("forecast.json")
+	err := json.Unmarshal([]byte(file), &forecast)
+	if err != nil {
+		return nil
+	}
+	return forecast
+}
+
+func writeForecasts(forecast []models.Forecast) *ErrorStruct {
+
+	var err = os.Remove("forecast.json")
+	fileBody, _ := json.MarshalIndent(forecast, "", "")
+	err = ioutil.WriteFile("forecast.json", fileBody, 0644)
 	if err != nil {
 		return &ErrorStruct{err.Error()}
 	}
 	return nil
 }
 
+// Forecast Apı begin
+
+// APIKEY's functions bgein
 func SetApiKeys(ApiKeys string) []models.ApiKeyUsages {
 	var keys []string
 	keys = strings.Split(ApiKeys, ",")
@@ -266,5 +323,34 @@ func (this *GoWather) GetApiKey() string {
 	this.ApiKeyUsages[0].Usage += 1
 	writeApiKeyUsages(this.ApiKeyUsages)
 	return this.ApiKeyUsages[0].ApiKey
-
 }
+
+func readApiKeyUsages() (bool, []models.ApiKeyUsages) {
+	var apiKeyUsages []models.ApiKeyUsages
+	var fileIsExist bool
+	fileIsExist = fileIsExists("apiKeyUsages.json")
+	if fileIsExist {
+		file, _ := ioutil.ReadFile("apiKeyUsages.json")
+		err := json.Unmarshal([]byte(file), &apiKeyUsages)
+
+		if err != nil {
+			return false, nil
+		}
+		return true, apiKeyUsages
+
+	} else {
+		return false, nil
+	}
+}
+
+func writeApiKeyUsages(apiKeyUsages []models.ApiKeyUsages) *ErrorStruct {
+	var err = os.Remove("apiKeyUsages.json")
+	fileBody, _ := json.MarshalIndent(apiKeyUsages, "", " ")
+	err = ioutil.WriteFile("apiKeyUsages.json", fileBody, 0644)
+	if err != nil {
+		return &ErrorStruct{err.Error()}
+	}
+	return nil
+}
+
+// APIKEY'S functions end

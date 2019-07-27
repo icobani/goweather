@@ -5,6 +5,6 @@
 package models
 
 type NWind struct {
-	Speed     WNSpeed
-	Direction NDirection
+	Speed     WNSpeed    `json:"Speed"`
+	Direction NDirection `json:"Direction"`
 }

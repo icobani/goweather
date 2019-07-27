@@ -5,6 +5,6 @@
 package models
 
 type RealFeelTemperatureShade struct {
-	Minimum RFTSMinimum
-	Maximum RFTSMaximum
+	Minimum RFTSMinimum `json:"Minimum"`
+	Maximum RFTSMaximum `json:"Maximum"`
 }

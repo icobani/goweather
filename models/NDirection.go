@@ -5,7 +5,7 @@
 package models
 
 type NDirection struct {
-	Degress   float64 `json:"degress,omitempty"`
-	Localized string  `json:"localized,omitempty"`
-	English   string  `json:"english,omitempty"`
+	Degress   float64 `json:"Degress,omitempty"`
+	Localized string  `json:"Localized,omitempty"`
+	English   string  `json:"English,omitempty"`
 }

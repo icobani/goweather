@@ -5,9 +5,9 @@
 package models
 
 type AirAndPollen struct {
-	Name          string `json:"name,omitempty"`
-	Value         int32  `json:"value,omitempty"`
-	Category      string `json:"category,omitempty"`
-	CategoryValue int32  `json:"categoryValue,omitempty"`
-	Type          string `json:"type,omitempty"`
+	Name          string `json:"Name,omitempty"`
+	Value         int32  `json:"Value,omitempty"`
+	Category      string `json:"Category,omitempty"`
+	CategoryValue int32  `json:"CategoryValue,omitempty"`
+	Type          string `json:"Type,omitempty"`
 }

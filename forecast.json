@@ -1,0 +1,166 @@
+[
+  {
+    "key": "318735",
+    "Headline": {
+      "EffectiveDate": "2019-07-27T07:00:00+03:00",
+      "EffectiveEpochDate": 1564200000,
+      "Severity": 4,
+      "Text": "Pleasant Saturday",
+      "MobileLink": "http://m.accuweather.com/en/tr/kadikoy/318735/extended-weather-forecast/318735?lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/kadikoy/318735/daily-weather-forecast/318735?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-07-26T07:00:00+03:00",
+        "EpochDate": 1564113600,
+        "Sun": {},
+        "Moon": {},
+        "Temperature": {
+          "Minimum": {
+            "Value": 60,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 80,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "DegreeDaySummary": {
+          "Heating": {},
+          "Cooling": {}
+        },
+        "AirandPollen": null,
+        "Day": {
+          "Icon": 2,
+          "IconPhrase": "Mostly sunny",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/kadikoy/318735/daily-weather-forecast/318735?day=1\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "key": "318735",
+    "Headline": {
+      "EffectiveDate": "2019-07-27T07:00:00+03:00",
+      "EffectiveEpochDate": 1564200000,
+      "Severity": 4,
+      "Text": "Pleasant Saturday",
+      "MobileLink": "http://m.accuweather.com/en/tr/kadikoy/318735/extended-weather-forecast/318735?lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/kadikoy/318735/daily-weather-forecast/318735?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-07-26T07:00:00+03:00",
+        "EpochDate": 1564113600,
+        "Sun": {},
+        "Moon": {},
+        "Temperature": {
+          "Minimum": {
+            "Value": 60,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 80,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "DegreeDaySummary": {
+          "Heating": {},
+          "Cooling": {}
+        },
+        "AirandPollen": null,
+        "Day": {
+          "Icon": 2,
+          "IconPhrase": "Mostly sunny",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/kadikoy/318735/daily-weather-forecast/318735?day=1\u0026lang=en-us"
+      }
+    ]
+  }
+]

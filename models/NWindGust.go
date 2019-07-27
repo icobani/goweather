@@ -5,6 +5,6 @@
 package models
 
 type NWindGust struct {
-	Speed     NWGSpeed
-	Direction NWGDirection
+	Speed     NWGSpeed     `json:"Speed"`
+	Direction NWGDirection `json:"Direction"`
 }

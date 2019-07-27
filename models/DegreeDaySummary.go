@@ -5,6 +5,6 @@
 package models
 
 type DegreeDaySummary struct {
-	Heating Heating
-	Cooling Cooling
+	Heating Heating `json:"Heating"`
+	Cooling Cooling `json:"Cooling"`
 }

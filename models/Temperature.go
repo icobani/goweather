@@ -5,6 +5,6 @@
 package models
 
 type Temperature struct {
-	Minimum TMinimum
-	Maximum TMaximum
+	Minimum TMinimum `json:"Minimum"`
+	Maximum TMaximum `json:"Maximum"`
 }

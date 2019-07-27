@@ -5,6 +5,6 @@
 package models
 
 type Wind struct {
-	Speed     WSpeed
-	Direction Direction
+	Speed     WSpeed    `json:"Speed"`
+	Direction Direction `json:"Direction"`
 }
