@@ -5,6 +5,7 @@ import (
 	"github.com/icobani/goweather/models"
 	"gopkg.in/resty.v1"
 	"io/ioutil"
+	"log"
 	"os"
 	"sort"
 	"strings"
@@ -206,9 +207,8 @@ func writeLocations(locations []models.Location) *ErrorStruct {
 
 // Forecast Apı begin
 func (this *GoWather) SetForecast() *ErrorStruct {
-	//var savedForecast []models.Forecast
 	fileIsExist := fileIsExists("forecast.json")
-
+	// dosya varsa burası çalışacak
 	savedForecast := readForecast()
 	if fileIsExist {
 		for _, item := range savedForecast {
@@ -218,39 +218,58 @@ func (this *GoWather) SetForecast() *ErrorStruct {
 			}
 		}
 	}
-
-	res, err := resty.R().SetQueryParams(map[string]string{
-		"apikey": this.GetApiKey(),
-	}).SetHeader("Content-Type", "application/json").Get(this.ForecastURL + "/" + this.Location.Key)
-
+	// eğer dosya yoksa burası çalışacak
+	res, err := resty.R().
+		SetQueryParams(map[string]string{
+			"apikey": this.GetApiKey(),
+		}).
+		SetHeader("Content-Type", "application/json").
+		Get(this.ForecastURL + "/" + this.Location.Key)
+	//log.Print(res)
 	if err != nil {
+		log.Print("err1")
 		return &ErrorStruct{err.Error()}
 	}
 
-	var forecast []models.Forecast
+	var forecast models.Forecast
 	err = json.Unmarshal(res.Body(), &forecast)
 	if err != nil {
+		log.Print("err2")
 		return &ErrorStruct{err.Error()}
 	}
+	log.Print("\n", forecast, "\n")
+	if forecast.Headline.Link != "" {
+		forecast.Key = this.Location.Key
+		this.ForeCast = forecast
+		if fileIsExist {
+			//var savedForceCast []models.Forecast
+			savedForceCast := readForecast()
+			if savedForceCast == nil {
+				return &ErrorStruct{err.Error() + "Bir hata oluştu."}
+			}
 
-	if fileIsExist {
-		//var savedForceCast []models.Forecast
-		savedForceCast := readForecast()
-		if savedForceCast == nil {
-			return &ErrorStruct{err.Error() + "Bir hata oluştu."}
-		}
+			savedForceCast = append(savedForceCast, forecast)
+			errs := writeForecasts(savedForceCast)
+			if errs != nil {
+				log.Print("err3")
+				return errs
+			}
 
-		savedForceCast = append(savedForceCast, forecast[0])
-		errs := writeForecasts(savedForceCast)
-		if errs != nil {
-			return errs
+			log.Print("err4")
+		} else {
+			log.Print("err5.1")
+			var foreCasts []models.Forecast
+			foreCasts = append(foreCasts, forecast)
+			errs := writeForecasts(foreCasts)
+			if errs != nil {
+				return errs
+			}
 		}
 	} else {
-		errs := writeForecasts(forecast)
-		if errs != nil {
-			return errs
-		}
+		log.Print("err5")
+		return &ErrorStruct{"Hata"}
 	}
+
 	return nil
 }
 
