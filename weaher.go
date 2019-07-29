@@ -268,7 +268,7 @@ func (this *GoWather) SetForecast() *ErrorStruct {
 func readForecast() []models.Forecast {
 	var forecast []models.Forecast
 
-	now := time.Now().Add(time.Hour * 72)
+	now := time.Now()
 	dateString := now.Format("2006-01-02")
 
 	file, _ := ioutil.ReadFile(dateString + ".forecast.json")
@@ -281,15 +281,17 @@ func readForecast() []models.Forecast {
 
 func writeForecasts(forecast []models.Forecast) *ErrorStruct {
 
-	now := time.Now().Add(time.Hour * 72)
+	now := time.Now()
 	dateString := now.Format("2006-01-02")
 	// bir gün önceki kaydı siliyor.
 	beforeDay := now.AddDate(0, 0, -1)
 	beforeDateString := beforeDay.Format("2006-01-02")
 
 	var err = os.Remove(beforeDateString + ".forecast.json")
+	//var err = os.Remove("forecast.json")
 	fileBody, _ := json.MarshalIndent(forecast, "", "")
 	err = ioutil.WriteFile(dateString+".forecast.json", fileBody, 0644)
+	//err = ioutil.WriteFile("forecast.json", fileBody, 0644)
 	if err != nil {
 		return &ErrorStruct{err.Error()}
 	}
