@@ -1,18 +1,21 @@
 [
 {
-"Key": "1302511",
+"Key": "1309654",
 "Headline": {
-"EffectiveDate": "2019-07-28T07:00:00+03:00",
-"EffectiveEpochDate": 1564286400,
-"Severity": 4,
-"Text": "Pleasant Sunday",
-"MobileLink": "http://m.accuweather.com/en/tr/fatih/1302511/extended-weather-forecast/1302511?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/fatih/1302511/daily-weather-forecast/1302511?lang=en-us"
+"EffectiveDate": "2019-07-29T07:00:00+03:00",
+"EffectiveEpochDate": 1564372800,
+"Severity": 7,
+"Text": "Humid Monday to Tuesday night",
+"Category": "humidity",
+"EndDate": "2019-07-31T07:00:00+03:00",
+"EndEpochDate": 1564545600,
+"MobileLink": "http://m.accuweather.com/en/tr/besiktas/1309654/extended-weather-forecast/1309654?lang=en-us",
+"Link": "http://www.accuweather.com/en/tr/besiktas/1309654/daily-weather-forecast/1309654?lang=en-us"
 },
 "DailyForecasts": [
 {
-"Date": "2019-07-27T07:00:00+03:00",
-"EpochDate": 1564200000,
+"Date": "2019-07-29T07:00:00+03:00",
+"EpochDate": 1564372800,
 "Sun": {},
 "Moon": {},
 "Temperature": {
@@ -22,7 +25,7 @@
 "UnitType": 18
 },
 "Maximum": {
-"Value": 85,
+"Value": 86,
 "Unit": "F",
 "UnitType": 18
 }
@@ -58,8 +61,8 @@
 "Ice": {}
 },
 "Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
+"Icon": 34,
+"IconPhrase": "Mostly clear",
 "LocalSource": {},
 "Wind": {
 "Speed": {},
@@ -77,7 +80,7 @@
 "Sources": [
 "AccuWeather"
 ],
-"Link": "http://www.accuweather.com/en/tr/fatih/1302511/daily-weather-forecast/1302511?day=1\u0026lang=en-us"
+"Link": "http://www.accuweather.com/en/tr/besiktas/1309654/daily-weather-forecast/1309654?day=1\u0026lang=en-us"
 }
 ]
 }

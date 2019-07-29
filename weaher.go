@@ -5,7 +5,6 @@ import (
 	"github.com/icobani/goweather/models"
 	"gopkg.in/resty.v1"
 	"io/ioutil"
-	"log"
 	"os"
 	"sort"
 	"strings"
@@ -72,10 +71,10 @@ func (this GoWather) New(ApiKeys string, city string, district string) (*ErrorSt
 
 	if city != "" && district != "" {
 		err := returnVal.SetLocation(city, district)
-		returnVal.SetForecast()
 		if err != nil {
 			return err, nil
 		}
+		returnVal.SetForecast()
 	}
 	return nil, returnVal
 }
@@ -109,6 +108,7 @@ func fixEngCharOnLocation(val models.Location) models.Location {
 
 // Is there file begin
 func fileIsExists(name string) bool {
+
 	if _, err := os.Stat(name); err != nil {
 		if os.IsNotExist(err) {
 			return false
@@ -142,7 +142,6 @@ func (this *GoWather) SetLocation(city string, district string) *ErrorStruct {
 		}).
 		SetHeader("Content-Type", "application/json").
 		Get(this.LocationURL)
-	//log.Println("aaaa0\n",res)
 	if err != nil {
 		return &ErrorStruct{err.Error()}
 	}
@@ -207,6 +206,7 @@ func writeLocations(locations []models.Location) *ErrorStruct {
 
 // Forecast Apı begin
 func (this *GoWather) SetForecast() *ErrorStruct {
+
 	fileIsExist := fileIsExists("forecast.json")
 	// dosya varsa burası çalışacak
 	savedForecast := readForecast()
@@ -214,6 +214,7 @@ func (this *GoWather) SetForecast() *ErrorStruct {
 		for _, item := range savedForecast {
 			if this.Location.Key == item.Key {
 				this.ForeCast = item
+				//log.Print("Kayıt mevcut", this.ForeCast)
 				return nil
 			}
 		}
@@ -225,19 +226,16 @@ func (this *GoWather) SetForecast() *ErrorStruct {
 		}).
 		SetHeader("Content-Type", "application/json").
 		Get(this.ForecastURL + "/" + this.Location.Key)
-	//log.Print(res)
 	if err != nil {
-		log.Print("err1")
 		return &ErrorStruct{err.Error()}
 	}
 
 	var forecast models.Forecast
 	err = json.Unmarshal(res.Body(), &forecast)
 	if err != nil {
-		log.Print("err2")
 		return &ErrorStruct{err.Error()}
 	}
-	log.Print("\n", forecast, "\n")
+
 	if forecast.Headline.Link != "" {
 		forecast.Key = this.Location.Key
 		this.ForeCast = forecast
@@ -251,13 +249,9 @@ func (this *GoWather) SetForecast() *ErrorStruct {
 			savedForceCast = append(savedForceCast, forecast)
 			errs := writeForecasts(savedForceCast)
 			if errs != nil {
-				log.Print("err3")
 				return errs
 			}
-
-			log.Print("err4")
 		} else {
-			log.Print("err5.1")
 			var foreCasts []models.Forecast
 			foreCasts = append(foreCasts, forecast)
 			errs := writeForecasts(foreCasts)
@@ -266,16 +260,18 @@ func (this *GoWather) SetForecast() *ErrorStruct {
 			}
 		}
 	} else {
-		log.Print("err5")
 		return &ErrorStruct{"Hata"}
 	}
-
 	return nil
 }
 
 func readForecast() []models.Forecast {
 	var forecast []models.Forecast
-	file, _ := ioutil.ReadFile("forecast.json")
+
+	now := time.Now().Add(time.Hour * 72)
+	dateString := now.Format("2006-01-02")
+
+	file, _ := ioutil.ReadFile(dateString + ".forecast.json")
 	err := json.Unmarshal([]byte(file), &forecast)
 	if err != nil {
 		return nil
@@ -285,9 +281,15 @@ func readForecast() []models.Forecast {
 
 func writeForecasts(forecast []models.Forecast) *ErrorStruct {
 
-	var err = os.Remove("forecast.json")
+	now := time.Now().Add(time.Hour * 72)
+	dateString := now.Format("2006-01-02")
+	// bir gün önceki kaydı siliyor.
+	beforeDay := now.AddDate(0, 0, -1)
+	beforeDateString := beforeDay.Format("2006-01-02")
+
+	var err = os.Remove(beforeDateString + ".forecast.json")
 	fileBody, _ := json.MarshalIndent(forecast, "", "")
-	err = ioutil.WriteFile("forecast.json", fileBody, 0644)
+	err = ioutil.WriteFile(dateString+".forecast.json", fileBody, 0644)
 	if err != nil {
 		return &ErrorStruct{err.Error()}
 	}
