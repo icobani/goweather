@@ -76,7 +76,7 @@ func (this GoWather) New(ApiKeys string, city string, district string) (*ErrorSt
 		if err != nil {
 			return err, nil
 		}
-		err = returnVal.SetForecast()
+		//	err = returnVal.SetForecast()
 		if err != nil {
 			return err, nil
 		}
@@ -150,7 +150,7 @@ func (this *GoWather) SetLocation(city string, district string) *ErrorStruct {
 	if err != nil {
 		return &ErrorStruct{err.Error()}
 	}
-
+	log.Println(res.Body())
 	var locations []models.Location
 	err = json.Unmarshal(res.Body(), &locations)
 	if err != nil {
@@ -212,18 +212,20 @@ func writeLocations(locations []models.Location) *ErrorStruct {
 // Forecast Apı begin
 func (this *GoWather) SetForecast() *ErrorStruct {
 
-	// Date control
-	beginTime := "07:00:00"
-	endTime := "19:00:00"
-	// dosya varsa burası çalışacak
 	fileIsExist, savedForecast := readForecast()
-	if fileIsExist {
-		for _, item := range savedForecast {
-			// date control blog
-			if this.Location.Key == item.LocationCode && beginTime <= item.Headline.EffectiveDate && endTime >= item.Headline.EffectiveDate {
-				this.ForeCast = item
-				//log.Print("Kayıt mevcut", this.ForeCast)
-				return nil
+	// Date control
+	// dosya varsa burası çalışacak
+	hour, min, _ := time.Now().Clock()
+	log.Println(hour)
+	if (hour <= 19 && hour >= 7) && min >= 0 {
+		if fileIsExist {
+			for _, item := range savedForecast {
+				// date control blog
+				if this.Location.Key == item.LocationCode {
+					this.ForeCast = item
+					//log.Print("Kayıt mevcut", this.ForeCast)
+					return nil
+				}
 			}
 		}
 	}

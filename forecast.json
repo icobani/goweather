@@ -1,2175 +1,2093 @@
 [
-{
-"LocationCode": "1303247",
-"Headline": {
-"EffectiveDate": "2019-08-03T07:00:00+03:00",
-"EffectiveEpochDate": 1564804800,
-"Severity": 4,
-"Text": "Pleasant Saturday",
-"MobileLink": "http://m.accuweather.com/en/tr/eminonu/1303247/extended-weather-forecast/1303247?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/eminonu/1303247/daily-weather-forecast/1303247?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 71,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 86,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 2,
-"IconPhrase": "Mostly sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/eminonu/1303247/daily-weather-forecast/1303247?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "2071093",
-"Headline": {
-"EffectiveDate": "2019-08-04T07:00:00+03:00",
-"EffectiveEpochDate": 1564891200,
-"Severity": 4,
-"Text": "Pleasant Sunday",
-"MobileLink": "http://m.accuweather.com/en/tr/icmeler/2071093/extended-weather-forecast/2071093?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/icmeler/2071093/daily-weather-forecast/2071093?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 53,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 94,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 1,
-"IconPhrase": "Sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/icmeler/2071093/daily-weather-forecast/2071093?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "319472",
-"Headline": {
-"EffectiveDate": "2019-07-30T07:00:00+03:00",
-"EffectiveEpochDate": 1564459200,
-"Severity": 7,
-"Text": "Humid Tuesday to Tuesday night",
-"Category": "humidity",
-"EndDate": "2019-07-31T07:00:00+03:00",
-"EndEpochDate": 1564545600,
-"MobileLink": "http://m.accuweather.com/en/tr/bodrum/319472/extended-weather-forecast/319472?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/bodrum/319472/daily-weather-forecast/319472?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 71,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 88,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 1,
-"IconPhrase": "Sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/bodrum/319472/daily-weather-forecast/319472?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "319488",
-"Headline": {
-"EffectiveDate": "2019-07-30T07:00:00+03:00",
-"EffectiveEpochDate": 1564459200,
-"Severity": 7,
-"Text": "Humid Tuesday to Sunday",
-"Category": "humidity",
-"EndDate": "2019-08-04T19:00:00+03:00",
-"EndEpochDate": 1564934400,
-"MobileLink": "http://m.accuweather.com/en/tr/icmeler/319488/extended-weather-forecast/319488?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/icmeler/319488/daily-weather-forecast/319488?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 74,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 81,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 1,
-"IconPhrase": "Sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/icmeler/319488/daily-weather-forecast/319488?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "319474",
-"Headline": {
-"EffectiveDate": "2019-07-30T19:00:00+03:00",
-"EffectiveEpochDate": 1564502400,
-"Severity": 7,
-"Text": "Humid Tuesday night",
-"Category": "humidity",
-"EndDate": "2019-07-31T07:00:00+03:00",
-"EndEpochDate": 1564545600,
-"MobileLink": "http://m.accuweather.com/en/tr/datca/319474/extended-weather-forecast/319474?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/datca/319474/daily-weather-forecast/319474?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 71,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 88,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 1,
-"IconPhrase": "Sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/datca/319474/daily-weather-forecast/319474?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "1296342",
-"Headline": {
-"EffectiveDate": "2019-07-30T19:00:00+03:00",
-"EffectiveEpochDate": 1564502400,
-"Severity": 7,
-"Text": "Humid Tuesday night",
-"Category": "humidity",
-"EndDate": "2019-07-31T07:00:00+03:00",
-"EndEpochDate": 1564545600,
-"MobileLink": "http://m.accuweather.com/en/tr/turgutreis/1296342/extended-weather-forecast/1296342?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/turgutreis/1296342/daily-weather-forecast/1296342?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 71,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 88,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 1,
-"IconPhrase": "Sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/turgutreis/1296342/daily-weather-forecast/1296342?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "319493",
-"Headline": {
-"EffectiveDate": "2019-08-03T07:00:00+03:00",
-"EffectiveEpochDate": 1564804800,
-"Severity": 4,
-"Text": "Pleasant this weekend",
-"MobileLink": "http://m.accuweather.com/en/tr/oludeniz/319493/extended-weather-forecast/319493?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/oludeniz/319493/daily-weather-forecast/319493?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 65,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 82,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 1,
-"IconPhrase": "Sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/oludeniz/319493/daily-weather-forecast/319493?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "319475",
-"Headline": {
-"EffectiveDate": "2019-08-03T07:00:00+03:00",
-"EffectiveEpochDate": 1564804800,
-"Severity": 4,
-"Text": "Pleasant this weekend",
-"MobileLink": "http://m.accuweather.com/en/tr/fethiye/319475/extended-weather-forecast/319475?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/fethiye/319475/daily-weather-forecast/319475?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 65,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 82,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 1,
-"IconPhrase": "Sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/fethiye/319475/daily-weather-forecast/319475?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "319473",
-"Headline": {
-"EffectiveDate": "2019-07-31T19:00:00+03:00",
-"EffectiveEpochDate": 1564588800,
-"Severity": 7,
-"Text": "Humid Wednesday night",
-"Category": "humidity",
-"EndDate": "2019-08-01T07:00:00+03:00",
-"EndEpochDate": 1564632000,
-"MobileLink": "http://m.accuweather.com/en/tr/dalaman/319473/extended-weather-forecast/319473?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/dalaman/319473/daily-weather-forecast/319473?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 69,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 88,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 1,
-"IconPhrase": "Sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/dalaman/319473/daily-weather-forecast/319473?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "319487",
-"Headline": {
-"EffectiveDate": "2019-07-31T19:00:00+03:00",
-"EffectiveEpochDate": 1564588800,
-"Severity": 7,
-"Text": "Humid Wednesday night",
-"Category": "humidity",
-"EndDate": "2019-08-01T07:00:00+03:00",
-"EndEpochDate": 1564632000,
-"MobileLink": "http://m.accuweather.com/en/tr/dalyan/319487/extended-weather-forecast/319487?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/dalyan/319487/daily-weather-forecast/319487?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 69,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 88,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 1,
-"IconPhrase": "Sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/dalyan/319487/daily-weather-forecast/319487?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "319487",
-"Headline": {
-"EffectiveDate": "2019-07-31T19:00:00+03:00",
-"EffectiveEpochDate": 1564588800,
-"Severity": 7,
-"Text": "Humid Wednesday night",
-"Category": "humidity",
-"EndDate": "2019-08-01T07:00:00+03:00",
-"EndEpochDate": 1564632000,
-"MobileLink": "http://m.accuweather.com/en/tr/dalyan/319487/extended-weather-forecast/319487?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/dalyan/319487/daily-weather-forecast/319487?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 69,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 88,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 1,
-"IconPhrase": "Sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/dalyan/319487/daily-weather-forecast/319487?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "319487",
-"Headline": {
-"EffectiveDate": "2019-07-31T19:00:00+03:00",
-"EffectiveEpochDate": 1564588800,
-"Severity": 7,
-"Text": "Humid Wednesday night",
-"Category": "humidity",
-"EndDate": "2019-08-01T07:00:00+03:00",
-"EndEpochDate": 1564632000,
-"MobileLink": "http://m.accuweather.com/en/tr/dalyan/319487/extended-weather-forecast/319487?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/dalyan/319487/daily-weather-forecast/319487?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 69,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 88,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 1,
-"IconPhrase": "Sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/dalyan/319487/daily-weather-forecast/319487?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "319491",
-"Headline": {
-"EffectiveDate": "2019-07-31T19:00:00+03:00",
-"EffectiveEpochDate": 1564588800,
-"Severity": 7,
-"Text": "Humid Wednesday night",
-"Category": "humidity",
-"EndDate": "2019-08-01T07:00:00+03:00",
-"EndEpochDate": 1564632000,
-"MobileLink": "http://m.accuweather.com/en/tr/ortaca/319491/extended-weather-forecast/319491?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/ortaca/319491/daily-weather-forecast/319491?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 69,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 88,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 1,
-"IconPhrase": "Sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/ortaca/319491/daily-weather-forecast/319491?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "319479",
-"Headline": {
-"EffectiveDate": "2019-08-04T07:00:00+03:00",
-"EffectiveEpochDate": 1564891200,
-"Severity": 4,
-"Text": "Pleasant Sunday",
-"MobileLink": "http://m.accuweather.com/en/tr/milas/319479/extended-weather-forecast/319479?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/milas/319479/daily-weather-forecast/319479?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 67,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 89,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 1,
-"IconPhrase": "Sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/milas/319479/daily-weather-forecast/319479?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "1307281",
-"Headline": {
-"EffectiveDate": "2019-07-30T19:00:00+03:00",
-"EffectiveEpochDate": 1564502400,
-"Severity": 7,
-"Text": "Humid Tuesday night",
-"Category": "humidity",
-"EndDate": "2019-07-31T07:00:00+03:00",
-"EndEpochDate": 1564545600,
-"MobileLink": "http://m.accuweather.com/en/tr/adrasan/1307281/extended-weather-forecast/1307281?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/adrasan/1307281/daily-weather-forecast/1307281?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 70,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 86,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 3,
-"IconPhrase": "Partly sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 35,
-"IconPhrase": "Partly cloudy",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/adrasan/1307281/daily-weather-forecast/1307281?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "316949",
-"Headline": {
-"EffectiveDate": "2019-07-30T13:00:00+03:00",
-"EffectiveEpochDate": 1564480800,
-"Severity": 5,
-"Text": "Expect showers Tuesday afternoon",
-"Category": "rain",
-"EndDate": "2019-07-30T19:00:00+03:00",
-"EndEpochDate": 1564502400,
-"MobileLink": "http://m.accuweather.com/en/tr/finike/316949/extended-weather-forecast/316949?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/finike/316949/daily-weather-forecast/316949?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 71,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 89,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 14,
-"IconPhrase": "Partly sunny w/ showers",
-"HasPrecipitation": true,
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 35,
-"IconPhrase": "Partly cloudy",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/finike/316949/daily-weather-forecast/316949?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "316969",
-"Headline": {
-"EffectiveDate": "2019-08-01T13:00:00+03:00",
-"EffectiveEpochDate": 1564653600,
-"Severity": 5,
-"Text": "Expect showers Thursday afternoon",
-"Category": "rain",
-"EndDate": "2019-08-01T19:00:00+03:00",
-"EndEpochDate": 1564675200,
-"MobileLink": "http://m.accuweather.com/en/tr/kemer/316969/extended-weather-forecast/316969?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/kemer/316969/daily-weather-forecast/316969?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 65,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 87,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 2,
-"IconPhrase": "Mostly sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/kemer/316969/daily-weather-forecast/316969?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "316942",
-"Headline": {
-"EffectiveDate": "2019-08-03T07:00:00+03:00",
-"EffectiveEpochDate": 1564804800,
-"Severity": 4,
-"Text": "Pleasant this weekend",
-"MobileLink": "http://m.accuweather.com/en/tr/goynuk/316942/extended-weather-forecast/316942?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/goynuk/316942/daily-weather-forecast/316942?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 71,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 89,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 3,
-"IconPhrase": "Partly sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/goynuk/316942/daily-weather-forecast/316942?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "316965",
-"Headline": {
-"EffectiveDate": "2019-08-03T07:00:00+03:00",
-"EffectiveEpochDate": 1564804800,
-"Severity": 4,
-"Text": "Pleasant this weekend",
-"MobileLink": "http://m.accuweather.com/en/tr/belek/316965/extended-weather-forecast/316965?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/belek/316965/daily-weather-forecast/316965?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 71,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 89,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 3,
-"IconPhrase": "Partly sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/belek/316965/daily-weather-forecast/316965?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "1287636",
-"Headline": {
-"EffectiveDate": "2019-08-03T07:00:00+03:00",
-"EffectiveEpochDate": 1564804800,
-"Severity": 4,
-"Text": "Pleasant Saturday",
-"MobileLink": "http://m.accuweather.com/en/tr/side/1287636/extended-weather-forecast/1287636?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/side/1287636/daily-weather-forecast/1287636?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 68,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 88,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 1,
-"IconPhrase": "Sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/side/1287636/daily-weather-forecast/1287636?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "316940",
-"Headline": {
-"EffectiveDate": "2019-08-03T07:00:00+03:00",
-"EffectiveEpochDate": 1564804800,
-"Severity": 4,
-"Text": "Pleasant this weekend",
-"MobileLink": "http://m.accuweather.com/en/tr/alanya/316940/extended-weather-forecast/316940?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/alanya/316940/daily-weather-forecast/316940?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 68,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 92,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 2,
-"IconPhrase": "Mostly sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/alanya/316940/daily-weather-forecast/316940?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "1306262",
-"Headline": {
-"EffectiveDate": "2019-07-30T13:00:00+03:00",
-"EffectiveEpochDate": 1564480800,
-"Severity": 5,
-"Text": "Expect showers Tuesday afternoon",
-"Category": "rain",
-"EndDate": "2019-07-30T19:00:00+03:00",
-"EndEpochDate": 1564502400,
-"MobileLink": "http://m.accuweather.com/en/tr/cirali/1306262/extended-weather-forecast/1306262?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/cirali/1306262/daily-weather-forecast/1306262?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 71,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 89,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 14,
-"IconPhrase": "Partly sunny w/ showers",
-"HasPrecipitation": true,
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 35,
-"IconPhrase": "Partly cloudy",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/cirali/1306262/daily-weather-forecast/1306262?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "318249",
-"Headline": {
-"EffectiveDate": "2019-08-04T07:00:00+03:00",
-"EffectiveEpochDate": 1564891200,
-"Severity": 4,
-"Text": "Pleasant Sunday",
-"MobileLink": "http://m.accuweather.com/en/tr/yenibosna/318249/extended-weather-forecast/318249?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/yenibosna/318249/daily-weather-forecast/318249?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 72,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 83,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 2,
-"IconPhrase": "Mostly sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/yenibosna/318249/daily-weather-forecast/318249?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "1310017",
-"Headline": {
-"EffectiveDate": "2019-08-04T07:00:00+03:00",
-"EffectiveEpochDate": 1564891200,
-"Severity": 4,
-"Text": "Pleasant Sunday",
-"MobileLink": "http://m.accuweather.com/en/tr/bebek/1310017/extended-weather-forecast/1310017?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/bebek/1310017/daily-weather-forecast/1310017?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 69,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 82,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 2,
-"IconPhrase": "Mostly sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/bebek/1310017/daily-weather-forecast/1310017?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "1309654",
-"Headline": {
-"EffectiveDate": "2019-08-04T07:00:00+03:00",
-"EffectiveEpochDate": 1564891200,
-"Severity": 4,
-"Text": "Pleasant Sunday",
-"MobileLink": "http://m.accuweather.com/en/tr/besiktas/1309654/extended-weather-forecast/1309654?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/besiktas/1309654/daily-weather-forecast/1309654?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 69,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 82,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 2,
-"IconPhrase": "Mostly sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/besiktas/1309654/daily-weather-forecast/1309654?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "1302511",
-"Headline": {
-"EffectiveDate": "2019-08-03T07:00:00+03:00",
-"EffectiveEpochDate": 1564804800,
-"Severity": 4,
-"Text": "Pleasant this weekend",
-"MobileLink": "http://m.accuweather.com/en/tr/fatih/1302511/extended-weather-forecast/1302511?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/fatih/1302511/daily-weather-forecast/1302511?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 71,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 86,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 2,
-"IconPhrase": "Mostly sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/fatih/1302511/daily-weather-forecast/1302511?day=1\u0026lang=en-us"
-}
-]
-}
+  {
+    "LocationCode": "2071093",
+    "Headline": {
+      "EffectiveDate": "2019-08-04T07:00:00+03:00",
+      "EffectiveEpochDate": 1564891200,
+      "Severity": 4,
+      "Text": "Pleasant Sunday",
+      "MobileLink": "http://m.accuweather.com/en/tr/icmeler/2071093/extended-weather-forecast/2071093?lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/icmeler/2071093/daily-weather-forecast/2071093?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-07-30T07:00:00+03:00",
+        "EpochDate": 1564459200,
+        "Sun": {},
+        "Moon": {},
+        "Temperature": {
+          "Minimum": {
+            "Value": 53,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 94,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "DegreeDaySummary": {
+          "Heating": {},
+          "Cooling": {}
+        },
+        "AirandPollen": null,
+        "Day": {
+          "Icon": 1,
+          "IconPhrase": "Sunny",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/icmeler/2071093/daily-weather-forecast/2071093?day=1\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "LocationCode": "319472",
+    "Headline": {
+      "EffectiveDate": "2019-07-30T07:00:00+03:00",
+      "EffectiveEpochDate": 1564459200,
+      "Severity": 7,
+      "Text": "Humid Tuesday to Tuesday night",
+      "Category": "humidity",
+      "EndDate": "2019-07-31T07:00:00+03:00",
+      "EndEpochDate": 1564545600,
+      "MobileLink": "http://m.accuweather.com/en/tr/bodrum/319472/extended-weather-forecast/319472?lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/bodrum/319472/daily-weather-forecast/319472?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-07-30T07:00:00+03:00",
+        "EpochDate": 1564459200,
+        "Sun": {},
+        "Moon": {},
+        "Temperature": {
+          "Minimum": {
+            "Value": 71,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 88,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "DegreeDaySummary": {
+          "Heating": {},
+          "Cooling": {}
+        },
+        "AirandPollen": null,
+        "Day": {
+          "Icon": 1,
+          "IconPhrase": "Sunny",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/bodrum/319472/daily-weather-forecast/319472?day=1\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "LocationCode": "319488",
+    "Headline": {
+      "EffectiveDate": "2019-07-30T07:00:00+03:00",
+      "EffectiveEpochDate": 1564459200,
+      "Severity": 7,
+      "Text": "Humid Tuesday to Sunday",
+      "Category": "humidity",
+      "EndDate": "2019-08-04T19:00:00+03:00",
+      "EndEpochDate": 1564934400,
+      "MobileLink": "http://m.accuweather.com/en/tr/icmeler/319488/extended-weather-forecast/319488?lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/icmeler/319488/daily-weather-forecast/319488?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-07-30T07:00:00+03:00",
+        "EpochDate": 1564459200,
+        "Sun": {},
+        "Moon": {},
+        "Temperature": {
+          "Minimum": {
+            "Value": 74,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 81,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "DegreeDaySummary": {
+          "Heating": {},
+          "Cooling": {}
+        },
+        "AirandPollen": null,
+        "Day": {
+          "Icon": 1,
+          "IconPhrase": "Sunny",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/icmeler/319488/daily-weather-forecast/319488?day=1\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "LocationCode": "319474",
+    "Headline": {
+      "EffectiveDate": "2019-07-30T19:00:00+03:00",
+      "EffectiveEpochDate": 1564502400,
+      "Severity": 7,
+      "Text": "Humid Tuesday night",
+      "Category": "humidity",
+      "EndDate": "2019-07-31T07:00:00+03:00",
+      "EndEpochDate": 1564545600,
+      "MobileLink": "http://m.accuweather.com/en/tr/datca/319474/extended-weather-forecast/319474?lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/datca/319474/daily-weather-forecast/319474?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-07-30T07:00:00+03:00",
+        "EpochDate": 1564459200,
+        "Sun": {},
+        "Moon": {},
+        "Temperature": {
+          "Minimum": {
+            "Value": 71,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 88,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "DegreeDaySummary": {
+          "Heating": {},
+          "Cooling": {}
+        },
+        "AirandPollen": null,
+        "Day": {
+          "Icon": 1,
+          "IconPhrase": "Sunny",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/datca/319474/daily-weather-forecast/319474?day=1\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "LocationCode": "1296342",
+    "Headline": {
+      "EffectiveDate": "2019-07-30T19:00:00+03:00",
+      "EffectiveEpochDate": 1564502400,
+      "Severity": 7,
+      "Text": "Humid Tuesday night",
+      "Category": "humidity",
+      "EndDate": "2019-07-31T07:00:00+03:00",
+      "EndEpochDate": 1564545600,
+      "MobileLink": "http://m.accuweather.com/en/tr/turgutreis/1296342/extended-weather-forecast/1296342?lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/turgutreis/1296342/daily-weather-forecast/1296342?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-07-30T07:00:00+03:00",
+        "EpochDate": 1564459200,
+        "Sun": {},
+        "Moon": {},
+        "Temperature": {
+          "Minimum": {
+            "Value": 71,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 88,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "DegreeDaySummary": {
+          "Heating": {},
+          "Cooling": {}
+        },
+        "AirandPollen": null,
+        "Day": {
+          "Icon": 1,
+          "IconPhrase": "Sunny",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/turgutreis/1296342/daily-weather-forecast/1296342?day=1\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "LocationCode": "319493",
+    "Headline": {
+      "EffectiveDate": "2019-08-03T07:00:00+03:00",
+      "EffectiveEpochDate": 1564804800,
+      "Severity": 4,
+      "Text": "Pleasant this weekend",
+      "MobileLink": "http://m.accuweather.com/en/tr/oludeniz/319493/extended-weather-forecast/319493?lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/oludeniz/319493/daily-weather-forecast/319493?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-07-30T07:00:00+03:00",
+        "EpochDate": 1564459200,
+        "Sun": {},
+        "Moon": {},
+        "Temperature": {
+          "Minimum": {
+            "Value": 65,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 82,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "DegreeDaySummary": {
+          "Heating": {},
+          "Cooling": {}
+        },
+        "AirandPollen": null,
+        "Day": {
+          "Icon": 1,
+          "IconPhrase": "Sunny",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/oludeniz/319493/daily-weather-forecast/319493?day=1\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "LocationCode": "319475",
+    "Headline": {
+      "EffectiveDate": "2019-08-03T07:00:00+03:00",
+      "EffectiveEpochDate": 1564804800,
+      "Severity": 4,
+      "Text": "Pleasant this weekend",
+      "MobileLink": "http://m.accuweather.com/en/tr/fethiye/319475/extended-weather-forecast/319475?lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/fethiye/319475/daily-weather-forecast/319475?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-07-30T07:00:00+03:00",
+        "EpochDate": 1564459200,
+        "Sun": {},
+        "Moon": {},
+        "Temperature": {
+          "Minimum": {
+            "Value": 65,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 82,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "DegreeDaySummary": {
+          "Heating": {},
+          "Cooling": {}
+        },
+        "AirandPollen": null,
+        "Day": {
+          "Icon": 1,
+          "IconPhrase": "Sunny",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/fethiye/319475/daily-weather-forecast/319475?day=1\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "LocationCode": "319473",
+    "Headline": {
+      "EffectiveDate": "2019-07-31T19:00:00+03:00",
+      "EffectiveEpochDate": 1564588800,
+      "Severity": 7,
+      "Text": "Humid Wednesday night",
+      "Category": "humidity",
+      "EndDate": "2019-08-01T07:00:00+03:00",
+      "EndEpochDate": 1564632000,
+      "MobileLink": "http://m.accuweather.com/en/tr/dalaman/319473/extended-weather-forecast/319473?lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/dalaman/319473/daily-weather-forecast/319473?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-07-30T07:00:00+03:00",
+        "EpochDate": 1564459200,
+        "Sun": {},
+        "Moon": {},
+        "Temperature": {
+          "Minimum": {
+            "Value": 69,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 88,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "DegreeDaySummary": {
+          "Heating": {},
+          "Cooling": {}
+        },
+        "AirandPollen": null,
+        "Day": {
+          "Icon": 1,
+          "IconPhrase": "Sunny",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/dalaman/319473/daily-weather-forecast/319473?day=1\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "LocationCode": "319487",
+    "Headline": {
+      "EffectiveDate": "2019-07-31T19:00:00+03:00",
+      "EffectiveEpochDate": 1564588800,
+      "Severity": 7,
+      "Text": "Humid Wednesday night",
+      "Category": "humidity",
+      "EndDate": "2019-08-01T07:00:00+03:00",
+      "EndEpochDate": 1564632000,
+      "MobileLink": "http://m.accuweather.com/en/tr/dalyan/319487/extended-weather-forecast/319487?lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/dalyan/319487/daily-weather-forecast/319487?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-07-30T07:00:00+03:00",
+        "EpochDate": 1564459200,
+        "Sun": {},
+        "Moon": {},
+        "Temperature": {
+          "Minimum": {
+            "Value": 69,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 88,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "DegreeDaySummary": {
+          "Heating": {},
+          "Cooling": {}
+        },
+        "AirandPollen": null,
+        "Day": {
+          "Icon": 1,
+          "IconPhrase": "Sunny",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/dalyan/319487/daily-weather-forecast/319487?day=1\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "LocationCode": "319487",
+    "Headline": {
+      "EffectiveDate": "2019-07-31T19:00:00+03:00",
+      "EffectiveEpochDate": 1564588800,
+      "Severity": 7,
+      "Text": "Humid Wednesday night",
+      "Category": "humidity",
+      "EndDate": "2019-08-01T07:00:00+03:00",
+      "EndEpochDate": 1564632000,
+      "MobileLink": "http://m.accuweather.com/en/tr/dalyan/319487/extended-weather-forecast/319487?lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/dalyan/319487/daily-weather-forecast/319487?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-07-30T07:00:00+03:00",
+        "EpochDate": 1564459200,
+        "Sun": {},
+        "Moon": {},
+        "Temperature": {
+          "Minimum": {
+            "Value": 69,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 88,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "DegreeDaySummary": {
+          "Heating": {},
+          "Cooling": {}
+        },
+        "AirandPollen": null,
+        "Day": {
+          "Icon": 1,
+          "IconPhrase": "Sunny",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/dalyan/319487/daily-weather-forecast/319487?day=1\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "LocationCode": "319487",
+    "Headline": {
+      "EffectiveDate": "2019-07-31T19:00:00+03:00",
+      "EffectiveEpochDate": 1564588800,
+      "Severity": 7,
+      "Text": "Humid Wednesday night",
+      "Category": "humidity",
+      "EndDate": "2019-08-01T07:00:00+03:00",
+      "EndEpochDate": 1564632000,
+      "MobileLink": "http://m.accuweather.com/en/tr/dalyan/319487/extended-weather-forecast/319487?lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/dalyan/319487/daily-weather-forecast/319487?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-07-30T07:00:00+03:00",
+        "EpochDate": 1564459200,
+        "Sun": {},
+        "Moon": {},
+        "Temperature": {
+          "Minimum": {
+            "Value": 69,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 88,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "DegreeDaySummary": {
+          "Heating": {},
+          "Cooling": {}
+        },
+        "AirandPollen": null,
+        "Day": {
+          "Icon": 1,
+          "IconPhrase": "Sunny",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/dalyan/319487/daily-weather-forecast/319487?day=1\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "LocationCode": "319491",
+    "Headline": {
+      "EffectiveDate": "2019-07-31T19:00:00+03:00",
+      "EffectiveEpochDate": 1564588800,
+      "Severity": 7,
+      "Text": "Humid Wednesday night",
+      "Category": "humidity",
+      "EndDate": "2019-08-01T07:00:00+03:00",
+      "EndEpochDate": 1564632000,
+      "MobileLink": "http://m.accuweather.com/en/tr/ortaca/319491/extended-weather-forecast/319491?lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/ortaca/319491/daily-weather-forecast/319491?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-07-30T07:00:00+03:00",
+        "EpochDate": 1564459200,
+        "Sun": {},
+        "Moon": {},
+        "Temperature": {
+          "Minimum": {
+            "Value": 69,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 88,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "DegreeDaySummary": {
+          "Heating": {},
+          "Cooling": {}
+        },
+        "AirandPollen": null,
+        "Day": {
+          "Icon": 1,
+          "IconPhrase": "Sunny",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/ortaca/319491/daily-weather-forecast/319491?day=1\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "LocationCode": "319479",
+    "Headline": {
+      "EffectiveDate": "2019-08-04T07:00:00+03:00",
+      "EffectiveEpochDate": 1564891200,
+      "Severity": 4,
+      "Text": "Pleasant Sunday",
+      "MobileLink": "http://m.accuweather.com/en/tr/milas/319479/extended-weather-forecast/319479?lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/milas/319479/daily-weather-forecast/319479?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-07-30T07:00:00+03:00",
+        "EpochDate": 1564459200,
+        "Sun": {},
+        "Moon": {},
+        "Temperature": {
+          "Minimum": {
+            "Value": 67,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 89,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "DegreeDaySummary": {
+          "Heating": {},
+          "Cooling": {}
+        },
+        "AirandPollen": null,
+        "Day": {
+          "Icon": 1,
+          "IconPhrase": "Sunny",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/milas/319479/daily-weather-forecast/319479?day=1\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "LocationCode": "1307281",
+    "Headline": {
+      "EffectiveDate": "2019-07-30T19:00:00+03:00",
+      "EffectiveEpochDate": 1564502400,
+      "Severity": 7,
+      "Text": "Humid Tuesday night",
+      "Category": "humidity",
+      "EndDate": "2019-07-31T07:00:00+03:00",
+      "EndEpochDate": 1564545600,
+      "MobileLink": "http://m.accuweather.com/en/tr/adrasan/1307281/extended-weather-forecast/1307281?lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/adrasan/1307281/daily-weather-forecast/1307281?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-07-30T07:00:00+03:00",
+        "EpochDate": 1564459200,
+        "Sun": {},
+        "Moon": {},
+        "Temperature": {
+          "Minimum": {
+            "Value": 70,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 86,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "DegreeDaySummary": {
+          "Heating": {},
+          "Cooling": {}
+        },
+        "AirandPollen": null,
+        "Day": {
+          "Icon": 3,
+          "IconPhrase": "Partly sunny",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Night": {
+          "Icon": 35,
+          "IconPhrase": "Partly cloudy",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/adrasan/1307281/daily-weather-forecast/1307281?day=1\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "LocationCode": "316949",
+    "Headline": {
+      "EffectiveDate": "2019-07-30T13:00:00+03:00",
+      "EffectiveEpochDate": 1564480800,
+      "Severity": 5,
+      "Text": "Expect showers Tuesday afternoon",
+      "Category": "rain",
+      "EndDate": "2019-07-30T19:00:00+03:00",
+      "EndEpochDate": 1564502400,
+      "MobileLink": "http://m.accuweather.com/en/tr/finike/316949/extended-weather-forecast/316949?lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/finike/316949/daily-weather-forecast/316949?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-07-30T07:00:00+03:00",
+        "EpochDate": 1564459200,
+        "Sun": {},
+        "Moon": {},
+        "Temperature": {
+          "Minimum": {
+            "Value": 71,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 89,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "DegreeDaySummary": {
+          "Heating": {},
+          "Cooling": {}
+        },
+        "AirandPollen": null,
+        "Day": {
+          "Icon": 14,
+          "IconPhrase": "Partly sunny w/ showers",
+          "HasPrecipitation": true,
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Night": {
+          "Icon": 35,
+          "IconPhrase": "Partly cloudy",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/finike/316949/daily-weather-forecast/316949?day=1\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "LocationCode": "316969",
+    "Headline": {
+      "EffectiveDate": "2019-08-01T13:00:00+03:00",
+      "EffectiveEpochDate": 1564653600,
+      "Severity": 5,
+      "Text": "Expect showers Thursday afternoon",
+      "Category": "rain",
+      "EndDate": "2019-08-01T19:00:00+03:00",
+      "EndEpochDate": 1564675200,
+      "MobileLink": "http://m.accuweather.com/en/tr/kemer/316969/extended-weather-forecast/316969?lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/kemer/316969/daily-weather-forecast/316969?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-07-30T07:00:00+03:00",
+        "EpochDate": 1564459200,
+        "Sun": {},
+        "Moon": {},
+        "Temperature": {
+          "Minimum": {
+            "Value": 65,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 87,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "DegreeDaySummary": {
+          "Heating": {},
+          "Cooling": {}
+        },
+        "AirandPollen": null,
+        "Day": {
+          "Icon": 2,
+          "IconPhrase": "Mostly sunny",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/kemer/316969/daily-weather-forecast/316969?day=1\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "LocationCode": "316942",
+    "Headline": {
+      "EffectiveDate": "2019-08-03T07:00:00+03:00",
+      "EffectiveEpochDate": 1564804800,
+      "Severity": 4,
+      "Text": "Pleasant this weekend",
+      "MobileLink": "http://m.accuweather.com/en/tr/goynuk/316942/extended-weather-forecast/316942?lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/goynuk/316942/daily-weather-forecast/316942?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-07-30T07:00:00+03:00",
+        "EpochDate": 1564459200,
+        "Sun": {},
+        "Moon": {},
+        "Temperature": {
+          "Minimum": {
+            "Value": 71,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 89,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "DegreeDaySummary": {
+          "Heating": {},
+          "Cooling": {}
+        },
+        "AirandPollen": null,
+        "Day": {
+          "Icon": 3,
+          "IconPhrase": "Partly sunny",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/goynuk/316942/daily-weather-forecast/316942?day=1\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "LocationCode": "316965",
+    "Headline": {
+      "EffectiveDate": "2019-08-03T07:00:00+03:00",
+      "EffectiveEpochDate": 1564804800,
+      "Severity": 4,
+      "Text": "Pleasant this weekend",
+      "MobileLink": "http://m.accuweather.com/en/tr/belek/316965/extended-weather-forecast/316965?lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/belek/316965/daily-weather-forecast/316965?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-07-30T07:00:00+03:00",
+        "EpochDate": 1564459200,
+        "Sun": {},
+        "Moon": {},
+        "Temperature": {
+          "Minimum": {
+            "Value": 71,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 89,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "DegreeDaySummary": {
+          "Heating": {},
+          "Cooling": {}
+        },
+        "AirandPollen": null,
+        "Day": {
+          "Icon": 3,
+          "IconPhrase": "Partly sunny",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/belek/316965/daily-weather-forecast/316965?day=1\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "LocationCode": "1287636",
+    "Headline": {
+      "EffectiveDate": "2019-08-03T07:00:00+03:00",
+      "EffectiveEpochDate": 1564804800,
+      "Severity": 4,
+      "Text": "Pleasant Saturday",
+      "MobileLink": "http://m.accuweather.com/en/tr/side/1287636/extended-weather-forecast/1287636?lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/side/1287636/daily-weather-forecast/1287636?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-07-30T07:00:00+03:00",
+        "EpochDate": 1564459200,
+        "Sun": {},
+        "Moon": {},
+        "Temperature": {
+          "Minimum": {
+            "Value": 68,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 88,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "DegreeDaySummary": {
+          "Heating": {},
+          "Cooling": {}
+        },
+        "AirandPollen": null,
+        "Day": {
+          "Icon": 1,
+          "IconPhrase": "Sunny",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/side/1287636/daily-weather-forecast/1287636?day=1\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "LocationCode": "316940",
+    "Headline": {
+      "EffectiveDate": "2019-08-03T07:00:00+03:00",
+      "EffectiveEpochDate": 1564804800,
+      "Severity": 4,
+      "Text": "Pleasant this weekend",
+      "MobileLink": "http://m.accuweather.com/en/tr/alanya/316940/extended-weather-forecast/316940?lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/alanya/316940/daily-weather-forecast/316940?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-07-30T07:00:00+03:00",
+        "EpochDate": 1564459200,
+        "Sun": {},
+        "Moon": {},
+        "Temperature": {
+          "Minimum": {
+            "Value": 68,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 92,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "DegreeDaySummary": {
+          "Heating": {},
+          "Cooling": {}
+        },
+        "AirandPollen": null,
+        "Day": {
+          "Icon": 2,
+          "IconPhrase": "Mostly sunny",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/alanya/316940/daily-weather-forecast/316940?day=1\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "LocationCode": "1306262",
+    "Headline": {
+      "EffectiveDate": "2019-07-30T13:00:00+03:00",
+      "EffectiveEpochDate": 1564480800,
+      "Severity": 5,
+      "Text": "Expect showers Tuesday afternoon",
+      "Category": "rain",
+      "EndDate": "2019-07-30T19:00:00+03:00",
+      "EndEpochDate": 1564502400,
+      "MobileLink": "http://m.accuweather.com/en/tr/cirali/1306262/extended-weather-forecast/1306262?lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/cirali/1306262/daily-weather-forecast/1306262?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-07-30T07:00:00+03:00",
+        "EpochDate": 1564459200,
+        "Sun": {},
+        "Moon": {},
+        "Temperature": {
+          "Minimum": {
+            "Value": 71,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 89,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "DegreeDaySummary": {
+          "Heating": {},
+          "Cooling": {}
+        },
+        "AirandPollen": null,
+        "Day": {
+          "Icon": 14,
+          "IconPhrase": "Partly sunny w/ showers",
+          "HasPrecipitation": true,
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Night": {
+          "Icon": 35,
+          "IconPhrase": "Partly cloudy",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/cirali/1306262/daily-weather-forecast/1306262?day=1\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "LocationCode": "318249",
+    "Headline": {
+      "EffectiveDate": "2019-08-04T07:00:00+03:00",
+      "EffectiveEpochDate": 1564891200,
+      "Severity": 4,
+      "Text": "Pleasant Sunday",
+      "MobileLink": "http://m.accuweather.com/en/tr/yenibosna/318249/extended-weather-forecast/318249?lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/yenibosna/318249/daily-weather-forecast/318249?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-07-30T07:00:00+03:00",
+        "EpochDate": 1564459200,
+        "Sun": {},
+        "Moon": {},
+        "Temperature": {
+          "Minimum": {
+            "Value": 72,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 83,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "DegreeDaySummary": {
+          "Heating": {},
+          "Cooling": {}
+        },
+        "AirandPollen": null,
+        "Day": {
+          "Icon": 2,
+          "IconPhrase": "Mostly sunny",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/yenibosna/318249/daily-weather-forecast/318249?day=1\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "LocationCode": "1310017",
+    "Headline": {
+      "EffectiveDate": "2019-08-04T07:00:00+03:00",
+      "EffectiveEpochDate": 1564891200,
+      "Severity": 4,
+      "Text": "Pleasant Sunday",
+      "MobileLink": "http://m.accuweather.com/en/tr/bebek/1310017/extended-weather-forecast/1310017?lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/bebek/1310017/daily-weather-forecast/1310017?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-07-30T07:00:00+03:00",
+        "EpochDate": 1564459200,
+        "Sun": {},
+        "Moon": {},
+        "Temperature": {
+          "Minimum": {
+            "Value": 69,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 82,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "DegreeDaySummary": {
+          "Heating": {},
+          "Cooling": {}
+        },
+        "AirandPollen": null,
+        "Day": {
+          "Icon": 2,
+          "IconPhrase": "Mostly sunny",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/bebek/1310017/daily-weather-forecast/1310017?day=1\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "LocationCode": "1309654",
+    "Headline": {
+      "EffectiveDate": "2019-08-04T07:00:00+03:00",
+      "EffectiveEpochDate": 1564891200,
+      "Severity": 4,
+      "Text": "Pleasant Sunday",
+      "MobileLink": "http://m.accuweather.com/en/tr/besiktas/1309654/extended-weather-forecast/1309654?lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/besiktas/1309654/daily-weather-forecast/1309654?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-07-30T07:00:00+03:00",
+        "EpochDate": 1564459200,
+        "Sun": {},
+        "Moon": {},
+        "Temperature": {
+          "Minimum": {
+            "Value": 69,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 82,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "DegreeDaySummary": {
+          "Heating": {},
+          "Cooling": {}
+        },
+        "AirandPollen": null,
+        "Day": {
+          "Icon": 2,
+          "IconPhrase": "Mostly sunny",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/besiktas/1309654/daily-weather-forecast/1309654?day=1\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "LocationCode": "1302511",
+    "Headline": {
+      "EffectiveDate": "2019-08-03T07:00:00+03:00",
+      "EffectiveEpochDate": 1564804800,
+      "Severity": 4,
+      "Text": "Pleasant this weekend",
+      "MobileLink": "http://m.accuweather.com/en/tr/fatih/1302511/extended-weather-forecast/1302511?lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/fatih/1302511/daily-weather-forecast/1302511?lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-07-30T07:00:00+03:00",
+        "EpochDate": 1564459200,
+        "Sun": {},
+        "Moon": {},
+        "Temperature": {
+          "Minimum": {
+            "Value": 71,
+            "Unit": "F",
+            "UnitType": 18
+          },
+          "Maximum": {
+            "Value": 86,
+            "Unit": "F",
+            "UnitType": 18
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {},
+          "Maximum": {}
+        },
+        "DegreeDaySummary": {
+          "Heating": {},
+          "Cooling": {}
+        },
+        "AirandPollen": null,
+        "Day": {
+          "Icon": 2,
+          "IconPhrase": "Mostly sunny",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "LocalSource": {},
+          "Wind": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "WindGust": {
+            "Speed": {},
+            "Direction": {}
+          },
+          "TotalLiquid": {},
+          "Rain": {},
+          "Snow": {},
+          "Ice": {}
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/fatih/1302511/daily-weather-forecast/1302511?day=1\u0026lang=en-us"
+      }
+    ]
+  }
 ]
