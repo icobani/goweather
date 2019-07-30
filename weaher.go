@@ -5,6 +5,8 @@ import (
 	"github.com/icobani/goweather/models"
 	"gopkg.in/resty.v1"
 	"io/ioutil"
+	"log"
+	"net/http"
 	"os"
 	"sort"
 	"strings"
@@ -40,7 +42,7 @@ func (this GoWather) New(ApiKeys string, city string, district string) (*ErrorSt
 
 	// apiKeys controllers begin
 	if ApiKeys == "" {
-		return &ErrorStruct{"Api Key is cannot empty"}, nil
+		return &ErrorStruct{"Api LocationCode is cannot empty"}, nil
 	}
 	// apiKeys controllers end
 
@@ -74,7 +76,10 @@ func (this GoWather) New(ApiKeys string, city string, district string) (*ErrorSt
 		if err != nil {
 			return err, nil
 		}
-		returnVal.SetForecast()
+		err = returnVal.SetForecast()
+		if err != nil {
+			return err, nil
+		}
 	}
 	return nil, returnVal
 }
@@ -207,18 +212,24 @@ func writeLocations(locations []models.Location) *ErrorStruct {
 // Forecast Apı begin
 func (this *GoWather) SetForecast() *ErrorStruct {
 
-	fileIsExist := fileIsExists("forecast.json")
+	// Date control
+	beginTime := "07:00:00"
+	endTime := "19:00:00"
 	// dosya varsa burası çalışacak
-	savedForecast := readForecast()
+	fileIsExist, savedForecast := readForecast()
 	if fileIsExist {
 		for _, item := range savedForecast {
-			if this.Location.Key == item.Key {
+			// date control blog
+			if this.Location.Key == item.LocationCode && beginTime <= item.Headline.EffectiveDate && endTime >= item.Headline.EffectiveDate {
 				this.ForeCast = item
 				//log.Print("Kayıt mevcut", this.ForeCast)
 				return nil
 			}
 		}
 	}
+
+	var forecast models.Forecast
+
 	// eğer dosya yoksa burası çalışacak
 	res, err := resty.R().
 		SetQueryParams(map[string]string{
@@ -230,20 +241,35 @@ func (this *GoWather) SetForecast() *ErrorStruct {
 		return &ErrorStruct{err.Error()}
 	}
 
-	var forecast models.Forecast
+	log.Println(res.StatusCode())
+
 	err = json.Unmarshal(res.Body(), &forecast)
 	if err != nil {
 		return &ErrorStruct{err.Error()}
 	}
 
+	if res.StatusCode() != http.StatusOK {
+		type errstr struct {
+			Code      string
+			Message   string
+			Referance string
+		}
+		var errst errstr
+		err = json.Unmarshal(res.Body(), &errst)
+		if err != nil {
+			return &ErrorStruct{err.Error()}
+		}
+		return &ErrorStruct{errst.Message}
+	}
+
 	if forecast.Headline.Link != "" {
-		forecast.Key = this.Location.Key
+		forecast.LocationCode = this.Location.Key
 		this.ForeCast = forecast
 		if fileIsExist {
 			//var savedForceCast []models.Forecast
-			savedForceCast := readForecast()
+			_, savedForceCast := readForecast()
 			if savedForceCast == nil {
-				return &ErrorStruct{err.Error() + "Bir hata oluştu."}
+				return &ErrorStruct{"Bir hata oluştu."}
 			}
 
 			savedForceCast = append(savedForceCast, forecast)
@@ -260,37 +286,33 @@ func (this *GoWather) SetForecast() *ErrorStruct {
 			}
 		}
 	} else {
-		return &ErrorStruct{"Hata"}
+		return &ErrorStruct{"Nedit"}
 	}
 	return nil
 }
 
-func readForecast() []models.Forecast {
+func readForecast() (bool, []models.Forecast) {
 	var forecast []models.Forecast
+	var fileIsExist bool
+	fileIsExist = fileIsExists("forecast.json")
+	if fileIsExist {
+		file, _ := ioutil.ReadFile("forecast.json")
+		err := json.Unmarshal([]byte(file), &forecast)
 
-	now := time.Now()
-	dateString := now.Format("2006-01-02")
-
-	file, _ := ioutil.ReadFile(dateString + ".forecast.json")
-	err := json.Unmarshal([]byte(file), &forecast)
-	if err != nil {
-		return nil
+		if err != nil {
+			return false, nil
+		}
+		return true, forecast
+	} else {
+		return false, nil
 	}
-	return forecast
 }
 
 func writeForecasts(forecast []models.Forecast) *ErrorStruct {
-
-	now := time.Now()
-	dateString := now.Format("2006-01-02")
-	// bir gün önceki kaydı siliyor.
-	beforeDay := now.AddDate(0, 0, -1)
-	beforeDateString := beforeDay.Format("2006-01-02")
-
-	var err = os.Remove(beforeDateString + ".forecast.json")
+	var err = os.Remove("forecast.json")
 	//var err = os.Remove("forecast.json")
 	fileBody, _ := json.MarshalIndent(forecast, "", "")
-	err = ioutil.WriteFile(dateString+".forecast.json", fileBody, 0644)
+	err = ioutil.WriteFile("forecast.json", fileBody, 0644)
 	//err = ioutil.WriteFile("forecast.json", fileBody, 0644)
 	if err != nil {
 		return &ErrorStruct{err.Error()}
