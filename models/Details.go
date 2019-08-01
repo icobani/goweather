@@ -11,7 +11,7 @@ package models
 type Details struct {
 	Key                      string    `json:"Key,omitempty"`
 	StationCode              string    `json:"StationCode,omitempty"`
-	StationGmtOffset         int64     `json:"StationGmtOffset,omitempty"`
+	StationGmtOffset         float32   `json:"StationGmtOffset,omitempty"`
 	BandMap                  string    `json:"BandMap,omitempty"`
 	Climo                    string    `json:"Climo,omitempty"`
 	LocalRadar               string    `json:"LocalRadar,omitempty"`

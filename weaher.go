@@ -25,6 +25,9 @@ type GoWather struct {
 	LocationURL  string                `json:"location_url"`
 	ForecastURL  string                `json:"forecast_url"`
 	ApiKeys      string                `json:"api_key"`
+	Language     string                `json:"language"`
+	Details      bool                  `json:"detils"`
+	Metric       bool                  `json:"metric"`
 	ApiKeyUsages []models.ApiKeyUsages `json:"api_key_usages"`
 	Location     models.Location       `json:"location,omitempty"`
 	ForeCast     models.Forecast       `json:"fore_cast,omitempty"`
@@ -34,7 +37,7 @@ type ErrorStruct struct {
 	Error string
 }
 
-func (this GoWather) New(ApiKeys string, city string, district string) (*ErrorStruct, *GoWather) {
+func (this GoWather) New(ApiKeys string, city string, district string, language ...string) (*ErrorStruct, *GoWather) {
 	// English Characters setting begin
 	city = fixEnglishChars(city)
 	district = fixEnglishChars(district)
@@ -45,7 +48,7 @@ func (this GoWather) New(ApiKeys string, city string, district string) (*ErrorSt
 		return &ErrorStruct{"Api LocationCode is cannot empty"}, nil
 	}
 	// apiKeys controllers end
-
+	log.Println(2)
 	// apiKeys usages beging
 	KeyUsages := SetApiKeys(ApiKeys)
 	// apiKeys usages end
@@ -62,21 +65,28 @@ func (this GoWather) New(ApiKeys string, city string, district string) (*ErrorSt
 		SetRetryMaxWaitTime(3 * time.Second).
 		SetTimeout(1 * time.Minute).
 		SetContentLength(true)
-
 	returnVal := &GoWather{
 		ApiKeys:      ApiKeys,
 		ApiKeyUsages: KeyUsages,
 		BaseURL:      baseURL,
 		LocationURL:  locationURL,
 		ForecastURL:  forecastURL,
+		Language:     "",
 	}
 
+	if len(language) == 0 {
+		returnVal.Language = "tr-tr"
+	} else {
+		returnVal.Language = language[0]
+	}
+	// TODO:: language olarak default bir dil tanımlanacak mı ??? default dil türkçe olarak ayarladı. sorulacak.
 	if city != "" && district != "" {
+
 		err := returnVal.SetLocation(city, district)
 		if err != nil {
 			return err, nil
 		}
-		//	err = returnVal.SetForecast()
+		err = returnVal.SetForecast()
 		if err != nil {
 			return err, nil
 		}
@@ -127,7 +137,7 @@ func fileIsExists(name string) bool {
 // Locations Apı begin
 func (this *GoWather) SetLocation(city string, district string) *ErrorStruct {
 	var savedlocations []models.Location
-
+	log.Println(3)
 	fileIsExist, savedlocations := readLocations()
 	if fileIsExist {
 		// Sorun yok.
@@ -142,15 +152,16 @@ func (this *GoWather) SetLocation(city string, district string) *ErrorStruct {
 	// TODO : Eğer kayıtlarımızda yok ise apiden soracağız.
 	res, err := resty.R().
 		SetQueryParams(map[string]string{
-			"apikey": this.GetApiKey(),
-			"q":      city + " " + district,
+			"apikey":   this.GetApiKey(),
+			"q":        city + " " + district,
+			"details":  "true",
+			"language": this.Language,
 		}).
 		SetHeader("Content-Type", "application/json").
 		Get(this.LocationURL)
 	if err != nil {
 		return &ErrorStruct{err.Error()}
 	}
-	log.Println(res.Body())
 	var locations []models.Location
 	err = json.Unmarshal(res.Body(), &locations)
 	if err != nil {
@@ -211,21 +222,17 @@ func writeLocations(locations []models.Location) *ErrorStruct {
 
 // Forecast Apı begin
 func (this *GoWather) SetForecast() *ErrorStruct {
+	log.Println(4)
 
 	fileIsExist, savedForecast := readForecast()
-	// Date control
 	// dosya varsa burası çalışacak
-	hour, min, _ := time.Now().Clock()
-	log.Println(hour)
-	if (hour <= 19 && hour >= 7) && min >= 0 {
-		if fileIsExist {
-			for _, item := range savedForecast {
-				// date control blog
-				if this.Location.Key == item.LocationCode {
-					this.ForeCast = item
-					//log.Print("Kayıt mevcut", this.ForeCast)
-					return nil
-				}
+
+	if fileIsExist {
+		for _, item := range savedForecast {
+			if this.Location.Key == item.LocationCode {
+				this.ForeCast = item
+				//log.Print("Kayıt mevcut", this.ForeCast)
+				return nil
 			}
 		}
 	}
@@ -235,13 +242,17 @@ func (this *GoWather) SetForecast() *ErrorStruct {
 	// eğer dosya yoksa burası çalışacak
 	res, err := resty.R().
 		SetQueryParams(map[string]string{
-			"apikey": this.GetApiKey(),
+			"language": this.Language,
+			"details":  "true",
+			"metric":   "true",
+			"apikey":   this.GetApiKey(),
 		}).
 		SetHeader("Content-Type", "application/json").
 		Get(this.ForecastURL + "/" + this.Location.Key)
 	if err != nil {
 		return &ErrorStruct{err.Error()}
 	}
+	log.Println(res)
 
 	log.Println(res.StatusCode())
 
