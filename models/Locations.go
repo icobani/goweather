@@ -9,6 +9,7 @@
 package models
 
 type Location struct {
+	Language               string                   `json:"Language"`
 	Version                int32                    `json:"Version,omitempty"`
 	Key                    string                   `json:"Key,omitempty"`
 	Type                   string                   `json:"Type,omitempty"`

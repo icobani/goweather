@@ -5,9 +5,9 @@
 package models
 
 type Day struct {
-	Icon                     int32        `json:"Icon,omitempty"`
-	IconPhrase               string       `json:"IconPhrase,omitempty"`
-	HasPrecipitation         bool         `json:"HasPrecipitation,omitempty"`
+	Icon       int32  `json:"Icon,omitempty"`
+	IconPhrase string `json:"IconPhrase,omitempty"`
+	//HasPrecipitation         bool         `json:"HasPrecipitation,omitempty"`
 	LocalSource              DLocalSource `json:"LocalSource"`
 	ShortPhrase              string       `json:"ShortPhrase,omitempty"`
 	LongPhrase               string       `json:"LongPhrase,omitempty"`

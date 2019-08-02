@@ -1,2508 +1,4101 @@
 [
-{
-"LocationCode": "2071093",
-"Headline": {
-"EffectiveDate": "2019-08-04T07:00:00+03:00",
-"EffectiveEpochDate": 1564891200,
-"Severity": 4,
-"Text": "Pleasant Sunday",
-"MobileLink": "http://m.accuweather.com/en/tr/icmeler/2071093/extended-weather-forecast/2071093?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/icmeler/2071093/daily-weather-forecast/2071093?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 53,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 94,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 1,
-"IconPhrase": "Sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/icmeler/2071093/daily-weather-forecast/2071093?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "319472",
-"Headline": {
-"EffectiveDate": "2019-07-30T07:00:00+03:00",
-"EffectiveEpochDate": 1564459200,
-"Severity": 7,
-"Text": "Humid Tuesday to Tuesday night",
-"Category": "humidity",
-"EndDate": "2019-07-31T07:00:00+03:00",
-"EndEpochDate": 1564545600,
-"MobileLink": "http://m.accuweather.com/en/tr/bodrum/319472/extended-weather-forecast/319472?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/bodrum/319472/daily-weather-forecast/319472?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 71,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 88,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 1,
-"IconPhrase": "Sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/bodrum/319472/daily-weather-forecast/319472?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "319488",
-"Headline": {
-"EffectiveDate": "2019-07-30T07:00:00+03:00",
-"EffectiveEpochDate": 1564459200,
-"Severity": 7,
-"Text": "Humid Tuesday to Sunday",
-"Category": "humidity",
-"EndDate": "2019-08-04T19:00:00+03:00",
-"EndEpochDate": 1564934400,
-"MobileLink": "http://m.accuweather.com/en/tr/icmeler/319488/extended-weather-forecast/319488?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/icmeler/319488/daily-weather-forecast/319488?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 74,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 81,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 1,
-"IconPhrase": "Sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/icmeler/319488/daily-weather-forecast/319488?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "319474",
-"Headline": {
-"EffectiveDate": "2019-07-30T19:00:00+03:00",
-"EffectiveEpochDate": 1564502400,
-"Severity": 7,
-"Text": "Humid Tuesday night",
-"Category": "humidity",
-"EndDate": "2019-07-31T07:00:00+03:00",
-"EndEpochDate": 1564545600,
-"MobileLink": "http://m.accuweather.com/en/tr/datca/319474/extended-weather-forecast/319474?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/datca/319474/daily-weather-forecast/319474?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 71,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 88,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 1,
-"IconPhrase": "Sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/datca/319474/daily-weather-forecast/319474?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "1296342",
-"Headline": {
-"EffectiveDate": "2019-07-30T19:00:00+03:00",
-"EffectiveEpochDate": 1564502400,
-"Severity": 7,
-"Text": "Humid Tuesday night",
-"Category": "humidity",
-"EndDate": "2019-07-31T07:00:00+03:00",
-"EndEpochDate": 1564545600,
-"MobileLink": "http://m.accuweather.com/en/tr/turgutreis/1296342/extended-weather-forecast/1296342?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/turgutreis/1296342/daily-weather-forecast/1296342?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 71,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 88,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 1,
-"IconPhrase": "Sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/turgutreis/1296342/daily-weather-forecast/1296342?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "319493",
-"Headline": {
-"EffectiveDate": "2019-08-03T07:00:00+03:00",
-"EffectiveEpochDate": 1564804800,
-"Severity": 4,
-"Text": "Pleasant this weekend",
-"MobileLink": "http://m.accuweather.com/en/tr/oludeniz/319493/extended-weather-forecast/319493?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/oludeniz/319493/daily-weather-forecast/319493?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 65,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 82,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 1,
-"IconPhrase": "Sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/oludeniz/319493/daily-weather-forecast/319493?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "319475",
-"Headline": {
-"EffectiveDate": "2019-08-03T07:00:00+03:00",
-"EffectiveEpochDate": 1564804800,
-"Severity": 4,
-"Text": "Pleasant this weekend",
-"MobileLink": "http://m.accuweather.com/en/tr/fethiye/319475/extended-weather-forecast/319475?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/fethiye/319475/daily-weather-forecast/319475?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 65,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 82,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 1,
-"IconPhrase": "Sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/fethiye/319475/daily-weather-forecast/319475?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "319473",
-"Headline": {
-"EffectiveDate": "2019-07-31T19:00:00+03:00",
-"EffectiveEpochDate": 1564588800,
-"Severity": 7,
-"Text": "Humid Wednesday night",
-"Category": "humidity",
-"EndDate": "2019-08-01T07:00:00+03:00",
-"EndEpochDate": 1564632000,
-"MobileLink": "http://m.accuweather.com/en/tr/dalaman/319473/extended-weather-forecast/319473?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/dalaman/319473/daily-weather-forecast/319473?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 69,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 88,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 1,
-"IconPhrase": "Sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/dalaman/319473/daily-weather-forecast/319473?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "319487",
-"Headline": {
-"EffectiveDate": "2019-07-31T19:00:00+03:00",
-"EffectiveEpochDate": 1564588800,
-"Severity": 7,
-"Text": "Humid Wednesday night",
-"Category": "humidity",
-"EndDate": "2019-08-01T07:00:00+03:00",
-"EndEpochDate": 1564632000,
-"MobileLink": "http://m.accuweather.com/en/tr/dalyan/319487/extended-weather-forecast/319487?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/dalyan/319487/daily-weather-forecast/319487?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 69,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 88,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 1,
-"IconPhrase": "Sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/dalyan/319487/daily-weather-forecast/319487?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "319487",
-"Headline": {
-"EffectiveDate": "2019-07-31T19:00:00+03:00",
-"EffectiveEpochDate": 1564588800,
-"Severity": 7,
-"Text": "Humid Wednesday night",
-"Category": "humidity",
-"EndDate": "2019-08-01T07:00:00+03:00",
-"EndEpochDate": 1564632000,
-"MobileLink": "http://m.accuweather.com/en/tr/dalyan/319487/extended-weather-forecast/319487?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/dalyan/319487/daily-weather-forecast/319487?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 69,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 88,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 1,
-"IconPhrase": "Sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/dalyan/319487/daily-weather-forecast/319487?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "319487",
-"Headline": {
-"EffectiveDate": "2019-07-31T19:00:00+03:00",
-"EffectiveEpochDate": 1564588800,
-"Severity": 7,
-"Text": "Humid Wednesday night",
-"Category": "humidity",
-"EndDate": "2019-08-01T07:00:00+03:00",
-"EndEpochDate": 1564632000,
-"MobileLink": "http://m.accuweather.com/en/tr/dalyan/319487/extended-weather-forecast/319487?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/dalyan/319487/daily-weather-forecast/319487?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 69,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 88,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 1,
-"IconPhrase": "Sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/dalyan/319487/daily-weather-forecast/319487?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "319491",
-"Headline": {
-"EffectiveDate": "2019-07-31T19:00:00+03:00",
-"EffectiveEpochDate": 1564588800,
-"Severity": 7,
-"Text": "Humid Wednesday night",
-"Category": "humidity",
-"EndDate": "2019-08-01T07:00:00+03:00",
-"EndEpochDate": 1564632000,
-"MobileLink": "http://m.accuweather.com/en/tr/ortaca/319491/extended-weather-forecast/319491?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/ortaca/319491/daily-weather-forecast/319491?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 69,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 88,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 1,
-"IconPhrase": "Sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/ortaca/319491/daily-weather-forecast/319491?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "319479",
-"Headline": {
-"EffectiveDate": "2019-08-04T07:00:00+03:00",
-"EffectiveEpochDate": 1564891200,
-"Severity": 4,
-"Text": "Pleasant Sunday",
-"MobileLink": "http://m.accuweather.com/en/tr/milas/319479/extended-weather-forecast/319479?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/milas/319479/daily-weather-forecast/319479?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 67,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 89,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 1,
-"IconPhrase": "Sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/milas/319479/daily-weather-forecast/319479?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "1307281",
-"Headline": {
-"EffectiveDate": "2019-07-30T19:00:00+03:00",
-"EffectiveEpochDate": 1564502400,
-"Severity": 7,
-"Text": "Humid Tuesday night",
-"Category": "humidity",
-"EndDate": "2019-07-31T07:00:00+03:00",
-"EndEpochDate": 1564545600,
-"MobileLink": "http://m.accuweather.com/en/tr/adrasan/1307281/extended-weather-forecast/1307281?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/adrasan/1307281/daily-weather-forecast/1307281?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 70,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 86,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 3,
-"IconPhrase": "Partly sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 35,
-"IconPhrase": "Partly cloudy",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/adrasan/1307281/daily-weather-forecast/1307281?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "316949",
-"Headline": {
-"EffectiveDate": "2019-07-30T13:00:00+03:00",
-"EffectiveEpochDate": 1564480800,
-"Severity": 5,
-"Text": "Expect showers Tuesday afternoon",
-"Category": "rain",
-"EndDate": "2019-07-30T19:00:00+03:00",
-"EndEpochDate": 1564502400,
-"MobileLink": "http://m.accuweather.com/en/tr/finike/316949/extended-weather-forecast/316949?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/finike/316949/daily-weather-forecast/316949?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 71,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 89,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 14,
-"IconPhrase": "Partly sunny w/ showers",
-"HasPrecipitation": true,
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 35,
-"IconPhrase": "Partly cloudy",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/finike/316949/daily-weather-forecast/316949?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "316969",
-"Headline": {
-"EffectiveDate": "2019-08-01T13:00:00+03:00",
-"EffectiveEpochDate": 1564653600,
-"Severity": 5,
-"Text": "Expect showers Thursday afternoon",
-"Category": "rain",
-"EndDate": "2019-08-01T19:00:00+03:00",
-"EndEpochDate": 1564675200,
-"MobileLink": "http://m.accuweather.com/en/tr/kemer/316969/extended-weather-forecast/316969?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/kemer/316969/daily-weather-forecast/316969?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 65,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 87,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 2,
-"IconPhrase": "Mostly sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/kemer/316969/daily-weather-forecast/316969?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "316942",
-"Headline": {
-"EffectiveDate": "2019-08-03T07:00:00+03:00",
-"EffectiveEpochDate": 1564804800,
-"Severity": 4,
-"Text": "Pleasant this weekend",
-"MobileLink": "http://m.accuweather.com/en/tr/goynuk/316942/extended-weather-forecast/316942?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/goynuk/316942/daily-weather-forecast/316942?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 71,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 89,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 3,
-"IconPhrase": "Partly sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/goynuk/316942/daily-weather-forecast/316942?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "316965",
-"Headline": {
-"EffectiveDate": "2019-08-03T07:00:00+03:00",
-"EffectiveEpochDate": 1564804800,
-"Severity": 4,
-"Text": "Pleasant this weekend",
-"MobileLink": "http://m.accuweather.com/en/tr/belek/316965/extended-weather-forecast/316965?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/belek/316965/daily-weather-forecast/316965?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 71,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 89,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 3,
-"IconPhrase": "Partly sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/belek/316965/daily-weather-forecast/316965?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "1287636",
-"Headline": {
-"EffectiveDate": "2019-08-03T07:00:00+03:00",
-"EffectiveEpochDate": 1564804800,
-"Severity": 4,
-"Text": "Pleasant Saturday",
-"MobileLink": "http://m.accuweather.com/en/tr/side/1287636/extended-weather-forecast/1287636?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/side/1287636/daily-weather-forecast/1287636?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 68,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 88,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 1,
-"IconPhrase": "Sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/side/1287636/daily-weather-forecast/1287636?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "316940",
-"Headline": {
-"EffectiveDate": "2019-08-03T07:00:00+03:00",
-"EffectiveEpochDate": 1564804800,
-"Severity": 4,
-"Text": "Pleasant this weekend",
-"MobileLink": "http://m.accuweather.com/en/tr/alanya/316940/extended-weather-forecast/316940?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/alanya/316940/daily-weather-forecast/316940?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 68,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 92,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 2,
-"IconPhrase": "Mostly sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/alanya/316940/daily-weather-forecast/316940?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "1306262",
-"Headline": {
-"EffectiveDate": "2019-07-30T13:00:00+03:00",
-"EffectiveEpochDate": 1564480800,
-"Severity": 5,
-"Text": "Expect showers Tuesday afternoon",
-"Category": "rain",
-"EndDate": "2019-07-30T19:00:00+03:00",
-"EndEpochDate": 1564502400,
-"MobileLink": "http://m.accuweather.com/en/tr/cirali/1306262/extended-weather-forecast/1306262?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/cirali/1306262/daily-weather-forecast/1306262?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 71,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 89,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 14,
-"IconPhrase": "Partly sunny w/ showers",
-"HasPrecipitation": true,
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 35,
-"IconPhrase": "Partly cloudy",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/cirali/1306262/daily-weather-forecast/1306262?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "318249",
-"Headline": {
-"EffectiveDate": "2019-08-04T07:00:00+03:00",
-"EffectiveEpochDate": 1564891200,
-"Severity": 4,
-"Text": "Pleasant Sunday",
-"MobileLink": "http://m.accuweather.com/en/tr/yenibosna/318249/extended-weather-forecast/318249?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/yenibosna/318249/daily-weather-forecast/318249?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 72,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 83,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 2,
-"IconPhrase": "Mostly sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/yenibosna/318249/daily-weather-forecast/318249?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "1310017",
-"Headline": {
-"EffectiveDate": "2019-08-04T07:00:00+03:00",
-"EffectiveEpochDate": 1564891200,
-"Severity": 4,
-"Text": "Pleasant Sunday",
-"MobileLink": "http://m.accuweather.com/en/tr/bebek/1310017/extended-weather-forecast/1310017?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/bebek/1310017/daily-weather-forecast/1310017?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 69,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 82,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 2,
-"IconPhrase": "Mostly sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/bebek/1310017/daily-weather-forecast/1310017?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "1309654",
-"Headline": {
-"EffectiveDate": "2019-08-04T07:00:00+03:00",
-"EffectiveEpochDate": 1564891200,
-"Severity": 4,
-"Text": "Pleasant Sunday",
-"MobileLink": "http://m.accuweather.com/en/tr/besiktas/1309654/extended-weather-forecast/1309654?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/besiktas/1309654/daily-weather-forecast/1309654?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 69,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 82,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 2,
-"IconPhrase": "Mostly sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/besiktas/1309654/daily-weather-forecast/1309654?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "1302511",
-"Headline": {
-"EffectiveDate": "2019-08-03T07:00:00+03:00",
-"EffectiveEpochDate": 1564804800,
-"Severity": 4,
-"Text": "Pleasant this weekend",
-"MobileLink": "http://m.accuweather.com/en/tr/fatih/1302511/extended-weather-forecast/1302511?lang=en-us",
-"Link": "http://www.accuweather.com/en/tr/fatih/1302511/daily-weather-forecast/1302511?lang=en-us"
-},
-"DailyForecasts": [
-{
-"Date": "2019-07-30T07:00:00+03:00",
-"EpochDate": 1564459200,
-"Sun": {},
-"Moon": {},
-"Temperature": {
-"Minimum": {
-"Value": 71,
-"Unit": "F",
-"UnitType": 18
-},
-"Maximum": {
-"Value": 86,
-"Unit": "F",
-"UnitType": 18
-}
-},
-"RealFeelTemperature": {
-"Minimum": {},
-"Maximum": {}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {},
-"Maximum": {}
-},
-"DegreeDaySummary": {
-"Heating": {},
-"Cooling": {}
-},
-"AirandPollen": null,
-"Day": {
-"Icon": 2,
-"IconPhrase": "Mostly sunny",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Clear",
-"LocalSource": {},
-"Wind": {
-"Speed": {},
-"Direction": {}
-},
-"WindGust": {
-"Speed": {},
-"Direction": {}
-},
-"TotalLiquid": {},
-"Rain": {},
-"Snow": {},
-"Ice": {}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/en/tr/fatih/1302511/daily-weather-forecast/1302511?day=1\u0026lang=en-us"
-}
-]
-},
-{
-"LocationCode": "319141",
-"Headline": {
-"EffectiveDate": "2019-08-03T07:00:00+03:00",
-"EffectiveEpochDate": 1564804800,
-"Severity": 4,
-"Text": "Bu hafta sonu hava güzel",
-"MobileLink": "http://m.accuweather.com/tr/tr/hekimhan/319141/extended-weather-forecast/319141?unit=c",
-"Link": "http://www.accuweather.com/tr/tr/hekimhan/319141/daily-weather-forecast/319141?unit=c"
-},
-"DailyForecasts": [
-{
-"Date": "2019-08-01T07:00:00+03:00",
-"EpochDate": 1564632000,
-"Sun": {
-"Rise": "2019-08-01T05:29:00+03:00",
-"EpochRise": 1564626540,
-"Set": "2019-08-01T19:40:00+03:00",
-"EpochSet": 1564677600
-},
-"Moon": {
-"Rise": "2019-08-01T05:28:00+03:00",
-"EpochRise": 1564626480,
-"Set": "2019-08-01T20:11:00+03:00",
-"EpochSet": 1564679460,
-"Phase": "New"
-},
-"Temperature": {
-"Minimum": {
-"Value": 18.1,
-"Unit": "C",
-"UnitType": 17
-},
-"Maximum": {
-"Value": 33.4,
-"Unit": "C",
-"UnitType": 17
-}
-},
-"RealFeelTemperature": {
-"Minimum": {
-"Value": 17.1,
-"Unit": "C",
-"UnitType": 17
-},
-"Maximum": {
-"Value": 37.2,
-"Unit": "C",
-"UnitType": 17
-}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {
-"Value": 17.1,
-"Unit": "C",
-"UnitType": 17
-},
-"Maximum": {
-"Value": 31.6,
-"Unit": "C",
-"UnitType": 17
-}
-},
-"HoursOfSun": 14.1,
-"DegreeDaySummary": {
-"Heating": {
-"Unit": "C",
-"UnitType": 17
-},
-"Cooling": {
-"Value": 8,
-"Unit": "C",
-"UnitType": 17
-}
-},
-"AirandPollen": [
-{
-"Name": "AirQuality",
-"Category": "İyi",
-"CategoryValue": 1,
-"Type": "Ozon"
-},
-{
-"Name": "Grass",
-"Category": "Düşük",
-"CategoryValue": 1
-},
-{
-"Name": "Mold",
-"Category": "Düşük",
-"CategoryValue": 1
-},
-{
-"Name": "Ragweed",
-"Category": "Düşük",
-"CategoryValue": 1
-},
-{
-"Name": "Tree",
-"Category": "Düşük",
-"CategoryValue": 1
-},
-{
-"Name": "UVIndex",
-"Value": 11,
-"Category": "Aşırı yüksek",
-"CategoryValue": 5
-}
-],
-"Day": {
-"Icon": 1,
-"IconPhrase": "Güneşli",
-"LocalSource": {},
-"ShortPhrase": "Bol güneş ışığı",
-"LongPhrase": "Bol güneş ışığı",
-"Wind": {
-"Speed": {
-"Value": 13,
-"Unit": "km/h",
-"UnitType": 7
-},
-"Direction": {
-"Localized": "KB",
-"English": "NW"
-}
-},
-"WindGust": {
-"Speed": {
-"Value": 37,
-"Unit": "km/h",
-"UnitType": 7
-},
-"Direction": {
-"Localized": "KD",
-"English": "NE"
-}
-},
-"TotalLiquid": {
-"Unit": "mm",
-"UnitType": 3
-},
-"Rain": {
-"Unit": "mm",
-"UnitType": 3
-},
-"Snow": {
-"Unit": "cm",
-"UnitType": 4
-},
-"Ice": {
-"Unit": "mm",
-"UnitType": 3
-}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Açık",
-"LocalSource": {},
-"ShortPhrase": "Açık",
-"LongPhrase": "Açık",
-"Wind": {
-"Speed": {
-"Value": 14.8,
-"Unit": "km/h",
-"UnitType": 7
-},
-"Direction": {
-"Localized": "KB",
-"English": "NW"
-}
-},
-"WindGust": {
-"Speed": {
-"Value": 35.2,
-"Unit": "km/h",
-"UnitType": 7
-},
-"Direction": {
-"Localized": "KD",
-"English": "NE"
-}
-},
-"TotalLiquid": {
-"Unit": "mm",
-"UnitType": 3
-},
-"Rain": {
-"Unit": "mm",
-"UnitType": 3
-},
-"Snow": {
-"Unit": "cm",
-"UnitType": 4
-},
-"Ice": {
-"Unit": "mm",
-"UnitType": 3
-}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/tr/tr/hekimhan/319141/daily-weather-forecast/319141?day=1\u0026unit=c"
-}
-]
-},
-{
-"LocationCode": "319145",
-"Headline": {
-"EffectiveDate": "2019-08-02T07:00:00+03:00",
-"EffectiveEpochDate": 1564718400,
-"Severity": 4,
-"Text": "Cuma hissedilir derecede daha serin",
-"Category": "cooler",
-"EndDate": "2019-08-02T19:00:00+03:00",
-"EndEpochDate": 1564761600,
-"MobileLink": "http://m.accuweather.com/tr/tr/kale/319145/extended-weather-forecast/319145?unit=c",
-"Link": "http://www.accuweather.com/tr/tr/kale/319145/daily-weather-forecast/319145?unit=c"
-},
-"DailyForecasts": [
-{
-"Date": "2019-08-01T07:00:00+03:00",
-"EpochDate": 1564632000,
-"Sun": {
-"Rise": "2019-08-01T05:28:00+03:00",
-"EpochRise": 1564626480,
-"Set": "2019-08-01T19:40:00+03:00",
-"EpochSet": 1564677600
-},
-"Moon": {
-"Rise": "2019-08-01T05:27:00+03:00",
-"EpochRise": 1564626420,
-"Set": "2019-08-01T20:11:00+03:00",
-"EpochSet": 1564679460,
-"Phase": "New"
-},
-"Temperature": {
-"Minimum": {
-"Value": 12.5,
-"Unit": "C",
-"UnitType": 17
-},
-"Maximum": {
-"Value": 33.3,
-"Unit": "C",
-"UnitType": 17
-}
-},
-"RealFeelTemperature": {
-"Minimum": {
-"Value": 11.6,
-"Unit": "C",
-"UnitType": 17
-},
-"Maximum": {
-"Value": 38.2,
-"Unit": "C",
-"UnitType": 17
-}
-},
-"RealFeelTemperatureShade": {
-"Minimum": {
-"Value": 11.6,
-"Unit": "C",
-"UnitType": 17
-},
-"Maximum": {
-"Value": 32.2,
-"Unit": "C",
-"UnitType": 17
-}
-},
-"HoursOfSun": 14.1,
-"DegreeDaySummary": {
-"Heating": {
-"Unit": "C",
-"UnitType": 17
-},
-"Cooling": {
-"Value": 5,
-"Unit": "C",
-"UnitType": 17
-}
-},
-"AirandPollen": [
-{
-"Name": "AirQuality",
-"Category": "İyi",
-"CategoryValue": 1,
-"Type": "Ozon"
-},
-{
-"Name": "Grass",
-"Category": "Düşük",
-"CategoryValue": 1
-},
-{
-"Name": "Mold",
-"Category": "Düşük",
-"CategoryValue": 1
-},
-{
-"Name": "Ragweed",
-"Category": "Düşük",
-"CategoryValue": 1
-},
-{
-"Name": "Tree",
-"Category": "Düşük",
-"CategoryValue": 1
-},
-{
-"Name": "UVIndex",
-"Value": 11,
-"Category": "Aşırı yüksek",
-"CategoryValue": 5
-}
-],
-"Day": {
-"Icon": 1,
-"IconPhrase": "Güneşli",
-"LocalSource": {},
-"ShortPhrase": "Bol güneş ışığı",
-"LongPhrase": "Bol güneş ışığı",
-"Wind": {
-"Speed": {
-"Value": 18.5,
-"Unit": "km/h",
-"UnitType": 7
-},
-"Direction": {
-"Localized": "KB",
-"English": "NW"
-}
-},
-"WindGust": {
-"Speed": {
-"Value": 50,
-"Unit": "km/h",
-"UnitType": 7
-},
-"Direction": {
-"Localized": "DKD",
-"English": "ENE"
-}
-},
-"TotalLiquid": {
-"Unit": "mm",
-"UnitType": 3
-},
-"Rain": {
-"Unit": "mm",
-"UnitType": 3
-},
-"Snow": {
-"Unit": "cm",
-"UnitType": 4
-},
-"Ice": {
-"Unit": "mm",
-"UnitType": 3
-}
-},
-"Night": {
-"Icon": 33,
-"IconPhrase": "Açık",
-"LocalSource": {},
-"ShortPhrase": "Açık",
-"LongPhrase": "Açık",
-"Wind": {
-"Speed": {
-"Value": 16.7,
-"Unit": "km/h",
-"UnitType": 7
-},
-"Direction": {
-"Localized": "KKB",
-"English": "NNW"
-}
-},
-"WindGust": {
-"Speed": {
-"Value": 50,
-"Unit": "km/h",
-"UnitType": 7
-},
-"Direction": {
-"Localized": "DKD",
-"English": "ENE"
-}
-},
-"TotalLiquid": {
-"Unit": "mm",
-"UnitType": 3
-},
-"Rain": {
-"Unit": "mm",
-"UnitType": 3
-},
-"Snow": {
-"Unit": "cm",
-"UnitType": 4
-},
-"Ice": {
-"Unit": "mm",
-"UnitType": 3
-}
-},
-"Sources": [
-"AccuWeather"
-],
-"Link": "http://www.accuweather.com/tr/tr/kale/319145/daily-weather-forecast/319145?day=1\u0026unit=c"
-}
-]
-}
+  {
+    "Language": "en-us",
+    "LocationCode": "1302511",
+    "Headline": {
+      "EffectiveDate": "2019-08-04T07:00:00+03:00",
+      "EffectiveEpochDate": 1564891200,
+      "Severity": 4,
+      "Text": "Pleasant Sunday",
+      "MobileLink": "http://m.accuweather.com/en/tr/fatih/1302511/extended-weather-forecast/1302511?unit=c\u0026lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/fatih/1302511/daily-weather-forecast/1302511?unit=c\u0026lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-08-02T07:00:00+03:00",
+        "EpochDate": 1564718400,
+        "Sun": {
+          "Rise": "2019-08-02T06:01:00+03:00",
+          "EpochRise": 1564714860,
+          "Set": "2019-08-02T20:20:00+03:00",
+          "EpochSet": 1564766400
+        },
+        "Moon": {
+          "Rise": "2019-08-02T07:15:00+03:00",
+          "EpochRise": 1564719300,
+          "Set": "2019-08-02T21:36:00+03:00",
+          "EpochSet": 1564770960,
+          "Phase": "WaxingCrescent",
+          "Age": 1
+        },
+        "Temperature": {
+          "Minimum": {
+            "Value": 22,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 30.2,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {
+            "Value": 24.6,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 32.4,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {
+            "Value": 24.6,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 29.7,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "HoursOfSun": 11.3,
+        "DegreeDaySummary": {
+          "Heating": {
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Cooling": {
+            "Value": 8,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "AirandPollen": [
+          {
+            "Name": "AirQuality",
+            "Category": "Good",
+            "CategoryValue": 1,
+            "Type": "Ozone"
+          },
+          {
+            "Name": "Grass",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Mold",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Ragweed",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Tree",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "UVIndex",
+            "Value": 9,
+            "Category": "Very High",
+            "CategoryValue": 4
+          }
+        ],
+        "Day": {
+          "Icon": 2,
+          "IconPhrase": "Mostly sunny",
+          "LocalSource": {},
+          "ShortPhrase": "Mostly sunny; pleasant",
+          "LongPhrase": "Sunny to partly cloudy; pleasant",
+          "PrecipitationProbability": 9,
+          "ThunderstormProbability": 2,
+          "RainProbability": 9,
+          "Wind": {
+            "Speed": {
+              "Value": 16.7,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "NNE",
+              "English": "NNE"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 33.3,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "NNE",
+              "English": "NNE"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 25
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "LocalSource": {},
+          "ShortPhrase": "Clear; humid",
+          "LongPhrase": "Clear; humid",
+          "PrecipitationProbability": 1,
+          "RainProbability": 1,
+          "Wind": {
+            "Speed": {
+              "Value": 11.1,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "ENE",
+              "English": "ENE"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 24.1,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "NNE",
+              "English": "NNE"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 8
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/fatih/1302511/daily-weather-forecast/1302511?day=1\u0026unit=c\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "Language": "tr-tr",
+    "LocationCode": "319472",
+    "Headline": {
+      "EffectiveDate": "2019-08-02T07:00:00+03:00",
+      "EffectiveEpochDate": 1564718400,
+      "Severity": 7,
+      "Text": "Cuma sıcak",
+      "Category": "heat",
+      "EndDate": "2019-08-02T19:00:00+03:00",
+      "EndEpochDate": 1564761600,
+      "MobileLink": "http://m.accuweather.com/tr/tr/bodrum/319472/extended-weather-forecast/319472?unit=c",
+      "Link": "http://www.accuweather.com/tr/tr/bodrum/319472/daily-weather-forecast/319472?unit=c"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-08-02T07:00:00+03:00",
+        "EpochDate": 1564718400,
+        "Sun": {
+          "Rise": "2019-08-02T06:16:00+03:00",
+          "EpochRise": 1564715760,
+          "Set": "2019-08-02T20:17:00+03:00",
+          "EpochSet": 1564766220
+        },
+        "Moon": {
+          "Rise": "2019-08-02T07:29:00+03:00",
+          "EpochRise": 1564720140,
+          "Set": "2019-08-02T21:35:00+03:00",
+          "EpochSet": 1564770900,
+          "Phase": "WaxingCrescent",
+          "Age": 1
+        },
+        "Temperature": {
+          "Minimum": {
+            "Value": 22.7,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 38.8,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {
+            "Value": 23.6,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 41.1,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {
+            "Value": 23.6,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 37.4,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "HoursOfSun": 14,
+        "DegreeDaySummary": {
+          "Heating": {
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Cooling": {
+            "Value": 13,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "AirandPollen": [
+          {
+            "Name": "AirQuality",
+            "Category": "İyi",
+            "CategoryValue": 1,
+            "Type": "Ozon"
+          },
+          {
+            "Name": "Grass",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Mold",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Ragweed",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Tree",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "UVIndex",
+            "Value": 10,
+            "Category": "Çok Yüksek",
+            "CategoryValue": 4
+          }
+        ],
+        "Day": {
+          "Icon": 1,
+          "IconPhrase": "Güneşli",
+          "LocalSource": {},
+          "ShortPhrase": "Parlak güneş ışığı",
+          "LongPhrase": "Parlak güneş ışığı",
+          "Wind": {
+            "Speed": {
+              "Value": 14.8,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "KB",
+              "English": "NW"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 31.5,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "KB",
+              "English": "NW"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Açık",
+          "LocalSource": {},
+          "ShortPhrase": "Açık",
+          "LongPhrase": "Açık",
+          "Wind": {
+            "Speed": {
+              "Value": 11.1,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "KB",
+              "English": "NW"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 27.8,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "KKB",
+              "English": "NNW"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/tr/tr/bodrum/319472/daily-weather-forecast/319472?day=1\u0026unit=c"
+      }
+    ]
+  },
+  {
+    "Language": "en-us",
+    "LocationCode": "319488",
+    "Headline": {
+      "EffectiveDate": "2019-08-02T07:00:00+03:00",
+      "EffectiveEpochDate": 1564718400,
+      "Severity": 7,
+      "Text": "Humid Friday to Saturday night",
+      "Category": "humidity",
+      "EndDate": "2019-08-04T07:00:00+03:00",
+      "EndEpochDate": 1564891200,
+      "MobileLink": "http://m.accuweather.com/en/tr/icmeler/319488/extended-weather-forecast/319488?unit=c\u0026lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/icmeler/319488/daily-weather-forecast/319488?unit=c\u0026lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-08-02T07:00:00+03:00",
+        "EpochDate": 1564718400,
+        "Sun": {
+          "Rise": "2019-08-02T06:13:00+03:00",
+          "EpochRise": 1564715580,
+          "Set": "2019-08-02T20:13:00+03:00",
+          "EpochSet": 1564765980
+        },
+        "Moon": {
+          "Rise": "2019-08-02T07:27:00+03:00",
+          "EpochRise": 1564720020,
+          "Set": "2019-08-02T21:31:00+03:00",
+          "EpochSet": 1564770660,
+          "Phase": "WaxingCrescent",
+          "Age": 1
+        },
+        "Temperature": {
+          "Minimum": {
+            "Value": 24.8,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 31.6,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {
+            "Value": 26.3,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 35.7,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {
+            "Value": 26.3,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 34.4,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "HoursOfSun": 13.7,
+        "DegreeDaySummary": {
+          "Heating": {
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Cooling": {
+            "Value": 10,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "AirandPollen": [
+          {
+            "Name": "AirQuality",
+            "Category": "Good",
+            "CategoryValue": 1,
+            "Type": "Ozone"
+          },
+          {
+            "Name": "Grass",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Mold",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Ragweed",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Tree",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "UVIndex",
+            "Value": 10,
+            "Category": "Very High",
+            "CategoryValue": 4
+          }
+        ],
+        "Day": {
+          "Icon": 1,
+          "IconPhrase": "Sunny",
+          "LocalSource": {},
+          "ShortPhrase": "Plenty of sunshine; humid",
+          "LongPhrase": "Plenty of sunshine; humid",
+          "Wind": {
+            "Speed": {
+              "Value": 13,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "W",
+              "English": "W"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 35.2,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "WSW",
+              "English": "WSW"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 2
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "LocalSource": {},
+          "ShortPhrase": "Clear; warm and humid",
+          "LongPhrase": "Clear; warm and humid",
+          "Wind": {
+            "Speed": {
+              "Value": 16.7,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "NW",
+              "English": "NW"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 27.8,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "W",
+              "English": "W"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/icmeler/319488/daily-weather-forecast/319488?day=1\u0026unit=c\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "Language": "en-us",
+    "LocationCode": "319474",
+    "Headline": {
+      "EffectiveDate": "2019-08-02T07:00:00+03:00",
+      "EffectiveEpochDate": 1564718400,
+      "Severity": 7,
+      "Text": "Hot Friday",
+      "Category": "heat",
+      "EndDate": "2019-08-02T19:00:00+03:00",
+      "EndEpochDate": 1564761600,
+      "MobileLink": "http://m.accuweather.com/en/tr/datca/319474/extended-weather-forecast/319474?unit=c\u0026lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/datca/319474/daily-weather-forecast/319474?unit=c\u0026lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-08-02T07:00:00+03:00",
+        "EpochDate": 1564718400,
+        "Sun": {
+          "Rise": "2019-08-02T06:15:00+03:00",
+          "EpochRise": 1564715700,
+          "Set": "2019-08-02T20:15:00+03:00",
+          "EpochSet": 1564766100
+        },
+        "Moon": {
+          "Rise": "2019-08-02T07:29:00+03:00",
+          "EpochRise": 1564720140,
+          "Set": "2019-08-02T21:33:00+03:00",
+          "EpochSet": 1564770780,
+          "Phase": "WaxingCrescent",
+          "Age": 1
+        },
+        "Temperature": {
+          "Minimum": {
+            "Value": 22.7,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 38.8,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {
+            "Value": 23.6,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 41.1,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {
+            "Value": 23.6,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 37.4,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "HoursOfSun": 14,
+        "DegreeDaySummary": {
+          "Heating": {
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Cooling": {
+            "Value": 13,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "AirandPollen": [
+          {
+            "Name": "AirQuality",
+            "Category": "Good",
+            "CategoryValue": 1,
+            "Type": "Ozone"
+          },
+          {
+            "Name": "Grass",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Mold",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Ragweed",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Tree",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "UVIndex",
+            "Value": 10,
+            "Category": "Very High",
+            "CategoryValue": 4
+          }
+        ],
+        "Day": {
+          "Icon": 1,
+          "IconPhrase": "Sunny",
+          "LocalSource": {},
+          "ShortPhrase": "Plenty of sunshine; hot",
+          "LongPhrase": "Plenty of sunshine; hot",
+          "Wind": {
+            "Speed": {
+              "Value": 14.8,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "NW",
+              "English": "NW"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 31.5,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "NW",
+              "English": "NW"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "LocalSource": {},
+          "ShortPhrase": "Clear",
+          "LongPhrase": "Clear",
+          "Wind": {
+            "Speed": {
+              "Value": 11.1,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "NW",
+              "English": "NW"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 27.8,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "NNW",
+              "English": "NNW"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/datca/319474/daily-weather-forecast/319474?day=1\u0026unit=c\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "Language": "tr-tr",
+    "LocationCode": "1296342",
+    "Headline": {
+      "EffectiveDate": "2019-08-02T07:00:00+03:00",
+      "EffectiveEpochDate": 1564718400,
+      "Severity": 7,
+      "Text": "Cuma sıcak",
+      "Category": "heat",
+      "EndDate": "2019-08-02T19:00:00+03:00",
+      "EndEpochDate": 1564761600,
+      "MobileLink": "http://m.accuweather.com/tr/tr/turgutreis/1296342/extended-weather-forecast/1296342?unit=c",
+      "Link": "http://www.accuweather.com/tr/tr/turgutreis/1296342/daily-weather-forecast/1296342?unit=c"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-08-02T07:00:00+03:00",
+        "EpochDate": 1564718400,
+        "Sun": {
+          "Rise": "2019-08-02T06:16:00+03:00",
+          "EpochRise": 1564715760,
+          "Set": "2019-08-02T20:17:00+03:00",
+          "EpochSet": 1564766220
+        },
+        "Moon": {
+          "Rise": "2019-08-02T07:30:00+03:00",
+          "EpochRise": 1564720200,
+          "Set": "2019-08-02T21:35:00+03:00",
+          "EpochSet": 1564770900,
+          "Phase": "WaxingCrescent",
+          "Age": 1
+        },
+        "Temperature": {
+          "Minimum": {
+            "Value": 22.7,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 38.8,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {
+            "Value": 23.6,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 41.1,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {
+            "Value": 23.6,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 37.4,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "HoursOfSun": 14,
+        "DegreeDaySummary": {
+          "Heating": {
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Cooling": {
+            "Value": 13,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "AirandPollen": [
+          {
+            "Name": "AirQuality",
+            "Category": "İyi",
+            "CategoryValue": 1,
+            "Type": "Ozon"
+          },
+          {
+            "Name": "Grass",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Mold",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Ragweed",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Tree",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "UVIndex",
+            "Value": 10,
+            "Category": "Çok Yüksek",
+            "CategoryValue": 4
+          }
+        ],
+        "Day": {
+          "Icon": 1,
+          "IconPhrase": "Güneşli",
+          "LocalSource": {},
+          "ShortPhrase": "Parlak güneş ışığı",
+          "LongPhrase": "Parlak güneş ışığı",
+          "Wind": {
+            "Speed": {
+              "Value": 14.8,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "KB",
+              "English": "NW"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 31.5,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "KB",
+              "English": "NW"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Açık",
+          "LocalSource": {},
+          "ShortPhrase": "Açık",
+          "LongPhrase": "Açık",
+          "Wind": {
+            "Speed": {
+              "Value": 11.1,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "KB",
+              "English": "NW"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 27.8,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "KKB",
+              "English": "NNW"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          }
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/tr/tr/turgutreis/1296342/daily-weather-forecast/1296342?day=1\u0026unit=c"
+      }
+    ]
+  },
+  {
+    "Language": "en-us",
+    "LocationCode": "319493",
+    "Headline": {
+      "EffectiveDate": "2019-08-03T07:00:00+03:00",
+      "EffectiveEpochDate": 1564804800,
+      "Severity": 4,
+      "Text": "Pleasant this weekend",
+      "MobileLink": "http://m.accuweather.com/en/tr/oludeniz/319493/extended-weather-forecast/319493?unit=c\u0026lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/oludeniz/319493/daily-weather-forecast/319493?unit=c\u0026lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-08-02T07:00:00+03:00",
+        "EpochDate": 1564718400,
+        "Sun": {
+          "Rise": "2019-08-02T06:10:00+03:00",
+          "EpochRise": 1564715400,
+          "Set": "2019-08-02T20:09:00+03:00",
+          "EpochSet": 1564765740
+        },
+        "Moon": {
+          "Rise": "2019-08-02T07:23:00+03:00",
+          "EpochRise": 1564719780,
+          "Set": "2019-08-02T21:27:00+03:00",
+          "EpochSet": 1564770420,
+          "Phase": "WaxingCrescent",
+          "Age": 1
+        },
+        "Temperature": {
+          "Minimum": {
+            "Value": 22.3,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 32.7,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {
+            "Value": 23.2,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 37.8,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {
+            "Value": 23.2,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 32,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "HoursOfSun": 12,
+        "DegreeDaySummary": {
+          "Heating": {
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Cooling": {
+            "Value": 9,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "AirandPollen": [
+          {
+            "Name": "AirQuality",
+            "Category": "Good",
+            "CategoryValue": 1,
+            "Type": "Ozone"
+          },
+          {
+            "Name": "Grass",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Mold",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Ragweed",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Tree",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "UVIndex",
+            "Value": 11,
+            "Category": "Extreme",
+            "CategoryValue": 5
+          }
+        ],
+        "Day": {
+          "Icon": 2,
+          "IconPhrase": "Mostly sunny",
+          "LocalSource": {},
+          "ShortPhrase": "Mostly sunny",
+          "LongPhrase": "Mostly sunny",
+          "PrecipitationProbability": 2,
+          "ThunderstormProbability": 24,
+          "RainProbability": 2,
+          "Wind": {
+            "Speed": {
+              "Value": 7.4,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "WSW",
+              "English": "WSW"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 22.2,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "NNW",
+              "English": "NNW"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 15
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "LocalSource": {},
+          "ShortPhrase": "Clear; humid",
+          "LongPhrase": "Clear; humid",
+          "PrecipitationProbability": 1,
+          "ThunderstormProbability": 24,
+          "RainProbability": 1,
+          "Wind": {
+            "Speed": {
+              "Value": 5.6,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "N",
+              "English": "N"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 11.1,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "NW",
+              "English": "NW"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 4
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/oludeniz/319493/daily-weather-forecast/319493?day=1\u0026unit=c\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "Language": "tr-tr",
+    "LocationCode": "319475",
+    "Headline": {
+      "EffectiveDate": "2019-08-03T07:00:00+03:00",
+      "EffectiveEpochDate": 1564804800,
+      "Severity": 4,
+      "Text": "Bu hafta sonu hava güzel",
+      "MobileLink": "http://m.accuweather.com/tr/tr/fethiye/319475/extended-weather-forecast/319475?unit=c",
+      "Link": "http://www.accuweather.com/tr/tr/fethiye/319475/daily-weather-forecast/319475?unit=c"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-08-02T07:00:00+03:00",
+        "EpochDate": 1564718400,
+        "Sun": {
+          "Rise": "2019-08-02T06:10:00+03:00",
+          "EpochRise": 1564715400,
+          "Set": "2019-08-02T20:09:00+03:00",
+          "EpochSet": 1564765740
+        },
+        "Moon": {
+          "Rise": "2019-08-02T07:23:00+03:00",
+          "EpochRise": 1564719780,
+          "Set": "2019-08-02T21:27:00+03:00",
+          "EpochSet": 1564770420,
+          "Phase": "WaxingCrescent",
+          "Age": 1
+        },
+        "Temperature": {
+          "Minimum": {
+            "Value": 22.3,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 32.7,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {
+            "Value": 23.2,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 37.8,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {
+            "Value": 23.2,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 32,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "HoursOfSun": 12,
+        "DegreeDaySummary": {
+          "Heating": {
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Cooling": {
+            "Value": 9,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "AirandPollen": [
+          {
+            "Name": "AirQuality",
+            "Category": "İyi",
+            "CategoryValue": 1,
+            "Type": "Ozon"
+          },
+          {
+            "Name": "Grass",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Mold",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Ragweed",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Tree",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "UVIndex",
+            "Value": 11,
+            "Category": "Aşırı yüksek",
+            "CategoryValue": 5
+          }
+        ],
+        "Day": {
+          "Icon": 2,
+          "IconPhrase": "Çoğunlukla güneşli",
+          "LocalSource": {},
+          "ShortPhrase": "Çoğunlukla güneşli",
+          "LongPhrase": "Çoğunlukla güneşli",
+          "PrecipitationProbability": 2,
+          "ThunderstormProbability": 24,
+          "RainProbability": 2,
+          "Wind": {
+            "Speed": {
+              "Value": 7.4,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "BGB",
+              "English": "WSW"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 22.2,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "KKB",
+              "English": "NNW"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 15
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Açık",
+          "LocalSource": {},
+          "ShortPhrase": "Açık",
+          "LongPhrase": "Açık",
+          "PrecipitationProbability": 1,
+          "ThunderstormProbability": 24,
+          "RainProbability": 1,
+          "Wind": {
+            "Speed": {
+              "Value": 5.6,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "K",
+              "English": "N"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 11.1,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "KB",
+              "English": "NW"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 4
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/tr/tr/fethiye/319475/daily-weather-forecast/319475?day=1\u0026unit=c"
+      }
+    ]
+  },
+  {
+    "Language": "tr-tr",
+    "LocationCode": "319473",
+    "Headline": {
+      "EffectiveDate": "2019-08-02T19:00:00+03:00",
+      "EffectiveEpochDate": 1564761600,
+      "Severity": 7,
+      "Text": "Cuma gecesi nemli",
+      "Category": "humidity",
+      "EndDate": "2019-08-03T07:00:00+03:00",
+      "EndEpochDate": 1564804800,
+      "MobileLink": "http://m.accuweather.com/tr/tr/dalaman/319473/extended-weather-forecast/319473?unit=c",
+      "Link": "http://www.accuweather.com/tr/tr/dalaman/319473/daily-weather-forecast/319473?unit=c"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-08-02T07:00:00+03:00",
+        "EpochDate": 1564718400,
+        "Sun": {
+          "Rise": "2019-08-02T06:11:00+03:00",
+          "EpochRise": 1564715460,
+          "Set": "2019-08-02T20:11:00+03:00",
+          "EpochSet": 1564765860
+        },
+        "Moon": {
+          "Rise": "2019-08-02T07:24:00+03:00",
+          "EpochRise": 1564719840,
+          "Set": "2019-08-02T21:29:00+03:00",
+          "EpochSet": 1564770540,
+          "Phase": "WaxingCrescent",
+          "Age": 1
+        },
+        "Temperature": {
+          "Minimum": {
+            "Value": 22,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 33.2,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {
+            "Value": 21.3,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 34.3,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {
+            "Value": 21.3,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 32.9,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "HoursOfSun": 11.9,
+        "DegreeDaySummary": {
+          "Heating": {
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Cooling": {
+            "Value": 10,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "AirandPollen": [
+          {
+            "Name": "AirQuality",
+            "Category": "İyi",
+            "CategoryValue": 1,
+            "Type": "Ozon"
+          },
+          {
+            "Name": "Grass",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Mold",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Ragweed",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Tree",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "UVIndex",
+            "Value": 10,
+            "Category": "Çok Yüksek",
+            "CategoryValue": 4
+          }
+        ],
+        "Day": {
+          "Icon": 2,
+          "IconPhrase": "Çoğunlukla güneşli",
+          "LocalSource": {},
+          "ShortPhrase": "Çoğunlukla güneşli",
+          "LongPhrase": "Çoğunlukla güneşli",
+          "PrecipitationProbability": 1,
+          "ThunderstormProbability": 24,
+          "RainProbability": 1,
+          "Wind": {
+            "Speed": {
+              "Value": 11.1,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "G",
+              "English": "S"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 31.5,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "B",
+              "English": "W"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 16
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Açık",
+          "LocalSource": {},
+          "ShortPhrase": "Açık",
+          "LongPhrase": "Açık",
+          "ThunderstormProbability": 24,
+          "Wind": {
+            "Speed": {
+              "Value": 7.4,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "KB",
+              "English": "NW"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 20.4,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "GB",
+              "English": "SW"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 6
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/tr/tr/dalaman/319473/daily-weather-forecast/319473?day=1\u0026unit=c"
+      }
+    ]
+  },
+  {
+    "Language": "tr-tr",
+    "LocationCode": "319487",
+    "Headline": {
+      "EffectiveDate": "2019-08-02T19:00:00+03:00",
+      "EffectiveEpochDate": 1564761600,
+      "Severity": 7,
+      "Text": "Cuma gecesi nemli",
+      "Category": "humidity",
+      "EndDate": "2019-08-03T07:00:00+03:00",
+      "EndEpochDate": 1564804800,
+      "MobileLink": "http://m.accuweather.com/tr/tr/dalyan/319487/extended-weather-forecast/319487?unit=c",
+      "Link": "http://www.accuweather.com/tr/tr/dalyan/319487/daily-weather-forecast/319487?unit=c"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-08-02T07:00:00+03:00",
+        "EpochDate": 1564718400,
+        "Sun": {
+          "Rise": "2019-08-02T06:11:00+03:00",
+          "EpochRise": 1564715460,
+          "Set": "2019-08-02T20:12:00+03:00",
+          "EpochSet": 1564765920
+        },
+        "Moon": {
+          "Rise": "2019-08-02T07:25:00+03:00",
+          "EpochRise": 1564719900,
+          "Set": "2019-08-02T21:29:00+03:00",
+          "EpochSet": 1564770540,
+          "Phase": "WaxingCrescent",
+          "Age": 1
+        },
+        "Temperature": {
+          "Minimum": {
+            "Value": 22,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 33.2,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {
+            "Value": 21.3,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 34.3,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {
+            "Value": 21.3,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 32.9,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "HoursOfSun": 11.9,
+        "DegreeDaySummary": {
+          "Heating": {
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Cooling": {
+            "Value": 10,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "AirandPollen": [
+          {
+            "Name": "AirQuality",
+            "Category": "İyi",
+            "CategoryValue": 1,
+            "Type": "Ozon"
+          },
+          {
+            "Name": "Grass",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Mold",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Ragweed",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Tree",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "UVIndex",
+            "Value": 10,
+            "Category": "Çok Yüksek",
+            "CategoryValue": 4
+          }
+        ],
+        "Day": {
+          "Icon": 2,
+          "IconPhrase": "Çoğunlukla güneşli",
+          "LocalSource": {},
+          "ShortPhrase": "Çoğunlukla güneşli",
+          "LongPhrase": "Çoğunlukla güneşli",
+          "PrecipitationProbability": 1,
+          "ThunderstormProbability": 24,
+          "RainProbability": 1,
+          "Wind": {
+            "Speed": {
+              "Value": 11.1,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "G",
+              "English": "S"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 31.5,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "B",
+              "English": "W"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 16
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Açık",
+          "LocalSource": {},
+          "ShortPhrase": "Açık",
+          "LongPhrase": "Açık",
+          "ThunderstormProbability": 24,
+          "Wind": {
+            "Speed": {
+              "Value": 7.4,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "KB",
+              "English": "NW"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 20.4,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "GB",
+              "English": "SW"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 6
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/tr/tr/dalyan/319487/daily-weather-forecast/319487?day=1\u0026unit=c"
+      }
+    ]
+  },
+  {
+    "Language": "tr-tr",
+    "LocationCode": "319491",
+    "Headline": {
+      "EffectiveDate": "2019-08-02T19:00:00+03:00",
+      "EffectiveEpochDate": 1564761600,
+      "Severity": 7,
+      "Text": "Cuma gecesi nemli",
+      "Category": "humidity",
+      "EndDate": "2019-08-03T07:00:00+03:00",
+      "EndEpochDate": 1564804800,
+      "MobileLink": "http://m.accuweather.com/tr/tr/ortaca/319491/extended-weather-forecast/319491?unit=c",
+      "Link": "http://www.accuweather.com/tr/tr/ortaca/319491/daily-weather-forecast/319491?unit=c"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-08-02T07:00:00+03:00",
+        "EpochDate": 1564718400,
+        "Sun": {
+          "Rise": "2019-08-02T06:11:00+03:00",
+          "EpochRise": 1564715460,
+          "Set": "2019-08-02T20:11:00+03:00",
+          "EpochSet": 1564765860
+        },
+        "Moon": {
+          "Rise": "2019-08-02T07:24:00+03:00",
+          "EpochRise": 1564719840,
+          "Set": "2019-08-02T21:29:00+03:00",
+          "EpochSet": 1564770540,
+          "Phase": "WaxingCrescent",
+          "Age": 1
+        },
+        "Temperature": {
+          "Minimum": {
+            "Value": 22,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 33.2,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {
+            "Value": 21.3,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 34.3,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {
+            "Value": 21.3,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 32.9,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "HoursOfSun": 11.9,
+        "DegreeDaySummary": {
+          "Heating": {
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Cooling": {
+            "Value": 10,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "AirandPollen": [
+          {
+            "Name": "AirQuality",
+            "Category": "İyi",
+            "CategoryValue": 1,
+            "Type": "Ozon"
+          },
+          {
+            "Name": "Grass",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Mold",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Ragweed",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Tree",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "UVIndex",
+            "Value": 10,
+            "Category": "Çok Yüksek",
+            "CategoryValue": 4
+          }
+        ],
+        "Day": {
+          "Icon": 2,
+          "IconPhrase": "Çoğunlukla güneşli",
+          "LocalSource": {},
+          "ShortPhrase": "Çoğunlukla güneşli",
+          "LongPhrase": "Çoğunlukla güneşli",
+          "PrecipitationProbability": 1,
+          "ThunderstormProbability": 24,
+          "RainProbability": 1,
+          "Wind": {
+            "Speed": {
+              "Value": 11.1,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "G",
+              "English": "S"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 31.5,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "B",
+              "English": "W"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 16
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Açık",
+          "LocalSource": {},
+          "ShortPhrase": "Açık",
+          "LongPhrase": "Açık",
+          "ThunderstormProbability": 24,
+          "Wind": {
+            "Speed": {
+              "Value": 7.4,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "KB",
+              "English": "NW"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 20.4,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "GB",
+              "English": "SW"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 6
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/tr/tr/ortaca/319491/daily-weather-forecast/319491?day=1\u0026unit=c"
+      }
+    ]
+  },
+  {
+    "Language": "en-us",
+    "LocationCode": "1307281",
+    "Headline": {
+      "EffectiveDate": "2019-08-06T13:00:00+03:00",
+      "EffectiveEpochDate": 1565085600,
+      "Severity": 4,
+      "Text": "Expect showers Tuesday afternoon",
+      "Category": "rain",
+      "EndDate": "2019-08-06T19:00:00+03:00",
+      "EndEpochDate": 1565107200,
+      "MobileLink": "http://m.accuweather.com/en/tr/adrasan/1307281/extended-weather-forecast/1307281?unit=c\u0026lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/adrasan/1307281/daily-weather-forecast/1307281?unit=c\u0026lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-08-02T07:00:00+03:00",
+        "EpochDate": 1564718400,
+        "Sun": {
+          "Rise": "2019-08-02T06:05:00+03:00",
+          "EpochRise": 1564715100,
+          "Set": "2019-08-02T20:03:00+03:00",
+          "EpochSet": 1564765380
+        },
+        "Moon": {
+          "Rise": "2019-08-02T07:18:00+03:00",
+          "EpochRise": 1564719480,
+          "Set": "2019-08-02T21:21:00+03:00",
+          "EpochSet": 1564770060,
+          "Phase": "WaxingCrescent",
+          "Age": 1
+        },
+        "Temperature": {
+          "Minimum": {
+            "Value": 22.9,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 29.7,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {
+            "Value": 25.1,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 33.1,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {
+            "Value": 25.1,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 31.4,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "HoursOfSun": 11.7,
+        "DegreeDaySummary": {
+          "Heating": {
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Cooling": {
+            "Value": 8,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "AirandPollen": [
+          {
+            "Name": "AirQuality",
+            "Category": "Good",
+            "CategoryValue": 1,
+            "Type": "Ozone"
+          },
+          {
+            "Name": "Grass",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Mold",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Ragweed",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Tree",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "UVIndex",
+            "Value": 11,
+            "Category": "Extreme",
+            "CategoryValue": 5
+          }
+        ],
+        "Day": {
+          "Icon": 2,
+          "IconPhrase": "Mostly sunny",
+          "LocalSource": {},
+          "ShortPhrase": "Mostly sunny; pleasant",
+          "LongPhrase": "Mostly sunny; pleasant",
+          "PrecipitationProbability": 2,
+          "RainProbability": 2,
+          "Wind": {
+            "Speed": {
+              "Value": 7.4,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "SSW",
+              "English": "SSW"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 22.2,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "S",
+              "English": "S"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 17
+        },
+        "Night": {
+          "Icon": 34,
+          "IconPhrase": "Mostly clear",
+          "LocalSource": {},
+          "ShortPhrase": "Mainly clear; humid",
+          "LongPhrase": "Mainly clear; humid",
+          "PrecipitationProbability": 2,
+          "RainProbability": 2,
+          "Wind": {
+            "Speed": {
+              "Value": 5.6,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "N",
+              "English": "N"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 16.7,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "SSW",
+              "English": "SSW"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 10
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/adrasan/1307281/daily-weather-forecast/1307281?day=1\u0026unit=c\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "Language": "tr-tr",
+    "LocationCode": "316949",
+    "Headline": {
+      "EffectiveDate": "2019-08-06T13:00:00+03:00",
+      "EffectiveEpochDate": 1565085600,
+      "Severity": 5,
+      "Text": "Salı öğleden sonra sağanaklar bekleniyor",
+      "Category": "rain",
+      "EndDate": "2019-08-06T19:00:00+03:00",
+      "EndEpochDate": 1565107200,
+      "MobileLink": "http://m.accuweather.com/tr/tr/finike/316949/extended-weather-forecast/316949?unit=c",
+      "Link": "http://www.accuweather.com/tr/tr/finike/316949/daily-weather-forecast/316949?unit=c"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-08-02T07:00:00+03:00",
+        "EpochDate": 1564718400,
+        "Sun": {
+          "Rise": "2019-08-02T06:07:00+03:00",
+          "EpochRise": 1564715220,
+          "Set": "2019-08-02T20:05:00+03:00",
+          "EpochSet": 1564765500
+        },
+        "Moon": {
+          "Rise": "2019-08-02T07:19:00+03:00",
+          "EpochRise": 1564719540,
+          "Set": "2019-08-02T21:22:00+03:00",
+          "EpochSet": 1564770120,
+          "Phase": "WaxingCrescent",
+          "Age": 1
+        },
+        "Temperature": {
+          "Minimum": {
+            "Value": 22.1,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 32.5,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {
+            "Value": 21.6,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 38.5,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {
+            "Value": 21.6,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 37.1,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "HoursOfSun": 11.1,
+        "DegreeDaySummary": {
+          "Heating": {
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Cooling": {
+            "Value": 9,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "AirandPollen": [
+          {
+            "Name": "AirQuality",
+            "Category": "İyi",
+            "CategoryValue": 1,
+            "Type": "Ozon"
+          },
+          {
+            "Name": "Grass",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Mold",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Ragweed",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Tree",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "UVIndex",
+            "Value": 10,
+            "Category": "Çok Yüksek",
+            "CategoryValue": 4
+          }
+        ],
+        "Day": {
+          "Icon": 2,
+          "IconPhrase": "Çoğunlukla güneşli",
+          "LocalSource": {},
+          "ShortPhrase": "Çoğunlukla güneşli",
+          "LongPhrase": "Çoğunlukla güneşli",
+          "PrecipitationProbability": 3,
+          "ThunderstormProbability": 24,
+          "RainProbability": 3,
+          "Wind": {
+            "Speed": {
+              "Value": 5.6,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "GGD",
+              "English": "SSE"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 16.7,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "GGD",
+              "English": "SSE"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 21
+        },
+        "Night": {
+          "Icon": 34,
+          "IconPhrase": "Çoğunlukla açık",
+          "LocalSource": {},
+          "ShortPhrase": "Çoğunlukla açık",
+          "LongPhrase": "Çoğunlukla açık",
+          "PrecipitationProbability": 2,
+          "ThunderstormProbability": 24,
+          "RainProbability": 2,
+          "Wind": {
+            "Speed": {
+              "Value": 5.6,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "KD",
+              "English": "NE"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 11.1,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "GGB",
+              "English": "SSW"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 11
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/tr/tr/finike/316949/daily-weather-forecast/316949?day=1\u0026unit=c"
+      }
+    ]
+  },
+  {
+    "Language": "tr-tr",
+    "LocationCode": "316969",
+    "Headline": {
+      "EffectiveDate": "2019-08-02T19:00:00+03:00",
+      "EffectiveEpochDate": 1564761600,
+      "Severity": 7,
+      "Text": "Cuma gecesi nemli",
+      "Category": "humidity",
+      "EndDate": "2019-08-03T07:00:00+03:00",
+      "EndEpochDate": 1564804800,
+      "MobileLink": "http://m.accuweather.com/tr/tr/kemer/316969/extended-weather-forecast/316969?unit=c",
+      "Link": "http://www.accuweather.com/tr/tr/kemer/316969/daily-weather-forecast/316969?unit=c"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-08-02T07:00:00+03:00",
+        "EpochDate": 1564718400,
+        "Sun": {
+          "Rise": "2019-08-02T06:08:00+03:00",
+          "EpochRise": 1564715280,
+          "Set": "2019-08-02T20:06:00+03:00",
+          "EpochSet": 1564765560
+        },
+        "Moon": {
+          "Rise": "2019-08-02T07:21:00+03:00",
+          "EpochRise": 1564719660,
+          "Set": "2019-08-02T21:24:00+03:00",
+          "EpochSet": 1564770240,
+          "Phase": "WaxingCrescent",
+          "Age": 1
+        },
+        "Temperature": {
+          "Minimum": {
+            "Value": 20.6,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 31.6,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {
+            "Value": 20.8,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 35.4,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {
+            "Value": 20.8,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 30.3,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "HoursOfSun": 11.7,
+        "DegreeDaySummary": {
+          "Heating": {
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Cooling": {
+            "Value": 8,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "AirandPollen": [
+          {
+            "Name": "AirQuality",
+            "Category": "İyi",
+            "CategoryValue": 1,
+            "Type": "Ozon"
+          },
+          {
+            "Name": "Grass",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Mold",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Ragweed",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Tree",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "UVIndex",
+            "Value": 11,
+            "Category": "Aşırı yüksek",
+            "CategoryValue": 5
+          }
+        ],
+        "Day": {
+          "Icon": 2,
+          "IconPhrase": "Çoğunlukla güneşli",
+          "LocalSource": {},
+          "ShortPhrase": "Çoğunlukla güneşli",
+          "LongPhrase": "Çoğunlukla güneşli",
+          "PrecipitationProbability": 25,
+          "ThunderstormProbability": 24,
+          "RainProbability": 25,
+          "Wind": {
+            "Speed": {
+              "Value": 7.4,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "G",
+              "English": "S"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 22.2,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "K",
+              "English": "N"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 17
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Açık",
+          "LocalSource": {},
+          "ShortPhrase": "Açık",
+          "LongPhrase": "Açık",
+          "PrecipitationProbability": 2,
+          "ThunderstormProbability": 24,
+          "RainProbability": 2,
+          "Wind": {
+            "Speed": {
+              "Value": 7.4,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "KKB",
+              "English": "NNW"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 13,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "KB",
+              "English": "NW"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 6
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/tr/tr/kemer/316969/daily-weather-forecast/316969?day=1\u0026unit=c"
+      }
+    ]
+  },
+  {
+    "Language": "en-us",
+    "LocationCode": "316942",
+    "Headline": {
+      "EffectiveDate": "2019-08-03T07:00:00+03:00",
+      "EffectiveEpochDate": 1564804800,
+      "Severity": 4,
+      "Text": "Pleasant this weekend",
+      "MobileLink": "http://m.accuweather.com/en/tr/goynuk/316942/extended-weather-forecast/316942?unit=c\u0026lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/goynuk/316942/daily-weather-forecast/316942?unit=c\u0026lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-08-02T07:00:00+03:00",
+        "EpochDate": 1564718400,
+        "Sun": {
+          "Rise": "2019-08-02T06:04:00+03:00",
+          "EpochRise": 1564715040,
+          "Set": "2019-08-02T20:04:00+03:00",
+          "EpochSet": 1564765440
+        },
+        "Moon": {
+          "Rise": "2019-08-02T07:17:00+03:00",
+          "EpochRise": 1564719420,
+          "Set": "2019-08-02T21:21:00+03:00",
+          "EpochSet": 1564770060,
+          "Phase": "WaxingCrescent",
+          "Age": 1
+        },
+        "Temperature": {
+          "Minimum": {
+            "Value": 25.1,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 32.4,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {
+            "Value": 25.9,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 36.8,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {
+            "Value": 25.9,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 34.9,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "HoursOfSun": 11.3,
+        "DegreeDaySummary": {
+          "Heating": {
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Cooling": {
+            "Value": 11,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "AirandPollen": [
+          {
+            "Name": "AirQuality",
+            "Category": "Good",
+            "CategoryValue": 1,
+            "Type": "Ozone"
+          },
+          {
+            "Name": "Grass",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Mold",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Ragweed",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Tree",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "UVIndex",
+            "Value": 10,
+            "Category": "Very High",
+            "CategoryValue": 4
+          }
+        ],
+        "Day": {
+          "Icon": 2,
+          "IconPhrase": "Mostly sunny",
+          "LocalSource": {},
+          "ShortPhrase": "Mostly sunny",
+          "LongPhrase": "Mostly sunny",
+          "PrecipitationProbability": 3,
+          "ThunderstormProbability": 1,
+          "RainProbability": 3,
+          "Wind": {
+            "Speed": {
+              "Value": 9.3,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "SSE",
+              "English": "SSE"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 33.3,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "SSE",
+              "English": "SSE"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 20
+        },
+        "Night": {
+          "Icon": 34,
+          "IconPhrase": "Mostly clear",
+          "LocalSource": {},
+          "ShortPhrase": "Mainly clear; humid",
+          "LongPhrase": "Mainly clear; humid",
+          "PrecipitationProbability": 2,
+          "ThunderstormProbability": 24,
+          "RainProbability": 2,
+          "Wind": {
+            "Speed": {
+              "Value": 7.4,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "NE",
+              "English": "NE"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 11.1,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "S",
+              "English": "S"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 10
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/goynuk/316942/daily-weather-forecast/316942?day=1\u0026unit=c\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "Language": "tr-tr",
+    "LocationCode": "316965",
+    "Headline": {
+      "EffectiveDate": "2019-08-03T07:00:00+03:00",
+      "EffectiveEpochDate": 1564804800,
+      "Severity": 4,
+      "Text": "Bu hafta sonu hava güzel",
+      "MobileLink": "http://m.accuweather.com/tr/tr/belek/316965/extended-weather-forecast/316965?unit=c",
+      "Link": "http://www.accuweather.com/tr/tr/belek/316965/daily-weather-forecast/316965?unit=c"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-08-02T07:00:00+03:00",
+        "EpochDate": 1564718400,
+        "Sun": {
+          "Rise": "2019-08-02T06:02:00+03:00",
+          "EpochRise": 1564714920,
+          "Set": "2019-08-02T20:02:00+03:00",
+          "EpochSet": 1564765320
+        },
+        "Moon": {
+          "Rise": "2019-08-02T07:14:00+03:00",
+          "EpochRise": 1564719240,
+          "Set": "2019-08-02T21:19:00+03:00",
+          "EpochSet": 1564769940,
+          "Phase": "WaxingCrescent",
+          "Age": 1
+        },
+        "Temperature": {
+          "Minimum": {
+            "Value": 25.1,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 32.4,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {
+            "Value": 25.9,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 36.8,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {
+            "Value": 25.9,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 34.9,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "HoursOfSun": 11.3,
+        "DegreeDaySummary": {
+          "Heating": {
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Cooling": {
+            "Value": 11,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "AirandPollen": [
+          {
+            "Name": "AirQuality",
+            "Category": "İyi",
+            "CategoryValue": 1,
+            "Type": "Ozon"
+          },
+          {
+            "Name": "Grass",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Mold",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Ragweed",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Tree",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "UVIndex",
+            "Value": 10,
+            "Category": "Çok Yüksek",
+            "CategoryValue": 4
+          }
+        ],
+        "Day": {
+          "Icon": 2,
+          "IconPhrase": "Çoğunlukla güneşli",
+          "LocalSource": {},
+          "ShortPhrase": "Çoğunlukla güneşli",
+          "LongPhrase": "Çoğunlukla güneşli",
+          "PrecipitationProbability": 3,
+          "ThunderstormProbability": 1,
+          "RainProbability": 3,
+          "Wind": {
+            "Speed": {
+              "Value": 9.3,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "GGD",
+              "English": "SSE"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 33.3,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "GGD",
+              "English": "SSE"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 20
+        },
+        "Night": {
+          "Icon": 34,
+          "IconPhrase": "Çoğunlukla açık",
+          "LocalSource": {},
+          "ShortPhrase": "Çoğunlukla açık",
+          "LongPhrase": "Çoğunlukla açık",
+          "PrecipitationProbability": 2,
+          "ThunderstormProbability": 24,
+          "RainProbability": 2,
+          "Wind": {
+            "Speed": {
+              "Value": 7.4,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "KD",
+              "English": "NE"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 11.1,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "G",
+              "English": "S"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 10
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/tr/tr/belek/316965/daily-weather-forecast/316965?day=1\u0026unit=c"
+      }
+    ]
+  },
+  {
+    "Language": "en-us",
+    "LocationCode": "1287636",
+    "Headline": {
+      "EffectiveDate": "2019-08-02T19:00:00+03:00",
+      "EffectiveEpochDate": 1564761600,
+      "Severity": 7,
+      "Text": "Humid Friday night",
+      "Category": "humidity",
+      "EndDate": "2019-08-03T07:00:00+03:00",
+      "EndEpochDate": 1564804800,
+      "MobileLink": "http://m.accuweather.com/en/tr/side/1287636/extended-weather-forecast/1287636?unit=c\u0026lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/side/1287636/daily-weather-forecast/1287636?unit=c\u0026lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-08-02T07:00:00+03:00",
+        "EpochDate": 1564718400,
+        "Sun": {
+          "Rise": "2019-08-02T06:00:00+03:00",
+          "EpochRise": 1564714800,
+          "Set": "2019-08-02T20:00:00+03:00",
+          "EpochSet": 1564765200
+        },
+        "Moon": {
+          "Rise": "2019-08-02T07:13:00+03:00",
+          "EpochRise": 1564719180,
+          "Set": "2019-08-02T21:18:00+03:00",
+          "EpochSet": 1564769880,
+          "Phase": "WaxingCrescent",
+          "Age": 1
+        },
+        "Temperature": {
+          "Minimum": {
+            "Value": 22.2,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 34.6,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {
+            "Value": 23.4,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 38.3,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {
+            "Value": 23.4,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 35.5,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "HoursOfSun": 12.4,
+        "DegreeDaySummary": {
+          "Heating": {
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Cooling": {
+            "Value": 10,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "AirandPollen": [
+          {
+            "Name": "AirQuality",
+            "Category": "Good",
+            "CategoryValue": 1,
+            "Type": "Ozone"
+          },
+          {
+            "Name": "Grass",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Mold",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Ragweed",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Tree",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "UVIndex",
+            "Value": 10,
+            "Category": "Very High",
+            "CategoryValue": 4
+          }
+        ],
+        "Day": {
+          "Icon": 1,
+          "IconPhrase": "Sunny",
+          "LocalSource": {},
+          "ShortPhrase": "Sunshine",
+          "LongPhrase": "Sunshine",
+          "PrecipitationProbability": 3,
+          "ThunderstormProbability": 24,
+          "RainProbability": 3,
+          "Wind": {
+            "Speed": {
+              "Value": 9.3,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "SSE",
+              "English": "SSE"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 24.1,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "S",
+              "English": "S"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 12
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Clear",
+          "LocalSource": {},
+          "ShortPhrase": "Clear; humid",
+          "LongPhrase": "Clear; humid",
+          "PrecipitationProbability": 2,
+          "ThunderstormProbability": 24,
+          "RainProbability": 2,
+          "Wind": {
+            "Speed": {
+              "Value": 5.6,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "W",
+              "English": "W"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 14.8,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "SSE",
+              "English": "SSE"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 8
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/side/1287636/daily-weather-forecast/1287636?day=1\u0026unit=c\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "Language": "tr-tr",
+    "LocationCode": "316940",
+    "Headline": {
+      "EffectiveDate": "2019-08-03T07:00:00+03:00",
+      "EffectiveEpochDate": 1564804800,
+      "Severity": 4,
+      "Text": "Bu hafta sonu hava güzel",
+      "MobileLink": "http://m.accuweather.com/tr/tr/alanya/316940/extended-weather-forecast/316940?unit=c",
+      "Link": "http://www.accuweather.com/tr/tr/alanya/316940/daily-weather-forecast/316940?unit=c"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-08-02T07:00:00+03:00",
+        "EpochDate": 1564718400,
+        "Sun": {
+          "Rise": "2019-08-02T05:58:00+03:00",
+          "EpochRise": 1564714680,
+          "Set": "2019-08-02T19:58:00+03:00",
+          "EpochSet": 1564765080
+        },
+        "Moon": {
+          "Rise": "2019-08-02T07:11:00+03:00",
+          "EpochRise": 1564719060,
+          "Set": "2019-08-02T21:15:00+03:00",
+          "EpochSet": 1564769700,
+          "Phase": "WaxingCrescent",
+          "Age": 1
+        },
+        "Temperature": {
+          "Minimum": {
+            "Value": 22.9,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 34,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {
+            "Value": 22.6,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 38.7,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {
+            "Value": 22.6,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 37.6,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "HoursOfSun": 13.1,
+        "DegreeDaySummary": {
+          "Heating": {
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Cooling": {
+            "Value": 10,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "AirandPollen": [
+          {
+            "Name": "AirQuality",
+            "Category": "İyi",
+            "CategoryValue": 1,
+            "Type": "Ozon"
+          },
+          {
+            "Name": "Grass",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Mold",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Ragweed",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Tree",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "UVIndex",
+            "Value": 10,
+            "Category": "Çok Yüksek",
+            "CategoryValue": 4
+          }
+        ],
+        "Day": {
+          "Icon": 2,
+          "IconPhrase": "Çoğunlukla güneşli",
+          "LocalSource": {},
+          "ShortPhrase": "Çoğunlukla güneşli",
+          "LongPhrase": "Çoğunlukla güneşli",
+          "PrecipitationProbability": 3,
+          "ThunderstormProbability": 24,
+          "RainProbability": 3,
+          "Wind": {
+            "Speed": {
+              "Value": 5.6,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "GB",
+              "English": "SW"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 20.4,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "G",
+              "English": "S"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 7
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Açık",
+          "LocalSource": {},
+          "ShortPhrase": "Açık",
+          "LongPhrase": "Açık",
+          "PrecipitationProbability": 3,
+          "ThunderstormProbability": 24,
+          "RainProbability": 3,
+          "Wind": {
+            "Speed": {
+              "Value": 7.4,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "KKD",
+              "English": "NNE"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 11.1,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "KD",
+              "English": "NE"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 6
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/tr/tr/alanya/316940/daily-weather-forecast/316940?day=1\u0026unit=c"
+      }
+    ]
+  },
+  {
+    "Language": "en-us",
+    "LocationCode": "1306262",
+    "Headline": {
+      "EffectiveDate": "2019-08-06T13:00:00+03:00",
+      "EffectiveEpochDate": 1565085600,
+      "Severity": 5,
+      "Text": "Expect showers Tuesday afternoon",
+      "Category": "rain",
+      "EndDate": "2019-08-06T19:00:00+03:00",
+      "EndEpochDate": 1565107200,
+      "MobileLink": "http://m.accuweather.com/en/tr/cirali/1306262/extended-weather-forecast/1306262?unit=c\u0026lang=en-us",
+      "Link": "http://www.accuweather.com/en/tr/cirali/1306262/daily-weather-forecast/1306262?unit=c\u0026lang=en-us"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-08-02T07:00:00+03:00",
+        "EpochDate": 1564718400,
+        "Sun": {
+          "Rise": "2019-08-02T06:05:00+03:00",
+          "EpochRise": 1564715100,
+          "Set": "2019-08-02T20:03:00+03:00",
+          "EpochSet": 1564765380
+        },
+        "Moon": {
+          "Rise": "2019-08-02T07:18:00+03:00",
+          "EpochRise": 1564719480,
+          "Set": "2019-08-02T21:21:00+03:00",
+          "EpochSet": 1564770060,
+          "Phase": "WaxingCrescent",
+          "Age": 1
+        },
+        "Temperature": {
+          "Minimum": {
+            "Value": 22.1,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 32.5,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {
+            "Value": 21.6,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 38.5,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {
+            "Value": 21.6,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 37.1,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "HoursOfSun": 11.1,
+        "DegreeDaySummary": {
+          "Heating": {
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Cooling": {
+            "Value": 9,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "AirandPollen": [
+          {
+            "Name": "AirQuality",
+            "Category": "Good",
+            "CategoryValue": 1,
+            "Type": "Ozone"
+          },
+          {
+            "Name": "Grass",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Mold",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Ragweed",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Tree",
+            "Category": "Low",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "UVIndex",
+            "Value": 10,
+            "Category": "Very High",
+            "CategoryValue": 4
+          }
+        ],
+        "Day": {
+          "Icon": 2,
+          "IconPhrase": "Mostly sunny",
+          "LocalSource": {},
+          "ShortPhrase": "Mostly sunny",
+          "LongPhrase": "Mostly sunny",
+          "PrecipitationProbability": 3,
+          "ThunderstormProbability": 24,
+          "RainProbability": 3,
+          "Wind": {
+            "Speed": {
+              "Value": 5.6,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "SSE",
+              "English": "SSE"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 16.7,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "SSE",
+              "English": "SSE"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 21
+        },
+        "Night": {
+          "Icon": 34,
+          "IconPhrase": "Mostly clear",
+          "LocalSource": {},
+          "ShortPhrase": "Mainly clear",
+          "LongPhrase": "Mainly clear",
+          "PrecipitationProbability": 2,
+          "ThunderstormProbability": 24,
+          "RainProbability": 2,
+          "Wind": {
+            "Speed": {
+              "Value": 5.6,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "NE",
+              "English": "NE"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 11.1,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "SSW",
+              "English": "SSW"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 11
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/en/tr/cirali/1306262/daily-weather-forecast/1306262?day=1\u0026unit=c\u0026lang=en-us"
+      }
+    ]
+  },
+  {
+    "Language": "tr-tr",
+    "LocationCode": "1-318249_31_AL",
+    "Headline": {
+      "EffectiveDate": "2019-08-04T07:00:00+03:00",
+      "EffectiveEpochDate": 1564891200,
+      "Severity": 4,
+      "Text": "Pazar hava güzel",
+      "MobileLink": "http://m.accuweather.com/tr/tr/yenibosna/318249/extended-weather-forecast/318249?unit=c",
+      "Link": "http://www.accuweather.com/tr/tr/yenibosna/318249/daily-weather-forecast/318249?unit=c"
+    },
+    "DailyForecasts": [
+      {
+        "Date": "2019-08-02T07:00:00+03:00",
+        "EpochDate": 1564718400,
+        "Sun": {
+          "Rise": "2019-08-02T06:01:00+03:00",
+          "EpochRise": 1564714860,
+          "Set": "2019-08-02T20:20:00+03:00",
+          "EpochSet": 1564766400
+        },
+        "Moon": {
+          "Rise": "2019-08-02T07:15:00+03:00",
+          "EpochRise": 1564719300,
+          "Set": "2019-08-02T21:36:00+03:00",
+          "EpochSet": 1564770960,
+          "Phase": "WaxingCrescent",
+          "Age": 1
+        },
+        "Temperature": {
+          "Minimum": {
+            "Value": 22,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 31.2,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperature": {
+          "Minimum": {
+            "Value": 23.9,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 33.9,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "RealFeelTemperatureShade": {
+          "Minimum": {
+            "Value": 23.9,
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Maximum": {
+            "Value": 30.5,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "HoursOfSun": 11.1,
+        "DegreeDaySummary": {
+          "Heating": {
+            "Unit": "C",
+            "UnitType": 17
+          },
+          "Cooling": {
+            "Value": 9,
+            "Unit": "C",
+            "UnitType": 17
+          }
+        },
+        "AirandPollen": [
+          {
+            "Name": "AirQuality",
+            "Category": "İyi",
+            "CategoryValue": 1,
+            "Type": "Ozon"
+          },
+          {
+            "Name": "Grass",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Mold",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Ragweed",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "Tree",
+            "Category": "Düşük",
+            "CategoryValue": 1
+          },
+          {
+            "Name": "UVIndex",
+            "Value": 9,
+            "Category": "Çok Yüksek",
+            "CategoryValue": 4
+          }
+        ],
+        "Day": {
+          "Icon": 2,
+          "IconPhrase": "Çoğunlukla güneşli",
+          "LocalSource": {},
+          "ShortPhrase": "Güneşli- parçalı bulutlu arası",
+          "LongPhrase": "Güneşli- parçalı bulutlu arası",
+          "PrecipitationProbability": 9,
+          "ThunderstormProbability": 1,
+          "RainProbability": 9,
+          "Wind": {
+            "Speed": {
+              "Value": 18.5,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "KKD",
+              "English": "NNE"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 37,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "K",
+              "English": "N"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 26
+        },
+        "Night": {
+          "Icon": 33,
+          "IconPhrase": "Açık",
+          "LocalSource": {},
+          "ShortPhrase": "Açık",
+          "LongPhrase": "Açık",
+          "PrecipitationProbability": 1,
+          "RainProbability": 1,
+          "Wind": {
+            "Speed": {
+              "Value": 11.1,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "KD",
+              "English": "NE"
+            }
+          },
+          "WindGust": {
+            "Speed": {
+              "Value": 22.2,
+              "Unit": "km/h",
+              "UnitType": 7
+            },
+            "Direction": {
+              "Localized": "K",
+              "English": "N"
+            }
+          },
+          "TotalLiquid": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Rain": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "Snow": {
+            "Unit": "cm",
+            "UnitType": 4
+          },
+          "Ice": {
+            "Unit": "mm",
+            "UnitType": 3
+          },
+          "CloudCover": 7
+        },
+        "Sources": [
+          "AccuWeather"
+        ],
+        "Link": "http://www.accuweather.com/tr/tr/yenibosna/318249/daily-weather-forecast/318249?day=1\u0026unit=c"
+      }
+    ]
+  }
 ]

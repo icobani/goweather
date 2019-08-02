@@ -25,7 +25,7 @@ type Details struct {
 	Satellite                string    `json:"Satellite,omitempty"`
 	Synoptic                 string    `json:"Synoptic,omitempty"`
 	MarineStation            string    `json:"MarineStation,omitempty"`
-	MarineStationGMTOffset   int64     `json:"MarineStationGmtOffset,omitempty"`
+	MarineStationGMTOffset   float32   `json:"MarineStationGmtOffset,omitempty"`
 	VideoCode                string    `json:"VideoCode,omitempty"`
 	PartnerID                int32     `json:"PartnerId,omitempty"`
 	Sources                  []Sources `json:"Sources"`

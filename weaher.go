@@ -37,7 +37,7 @@ type ErrorStruct struct {
 	Error string
 }
 
-func (this GoWather) New(ApiKeys string, city string, district string, language ...string) (*ErrorStruct, *GoWather) {
+func (this GoWather) New(ApiKeys string, city string, district string, language string) (*ErrorStruct, *GoWather) {
 	// English Characters setting begin
 	city = fixEnglishChars(city)
 	district = fixEnglishChars(district)
@@ -71,18 +71,13 @@ func (this GoWather) New(ApiKeys string, city string, district string, language 
 		BaseURL:      baseURL,
 		LocationURL:  locationURL,
 		ForecastURL:  forecastURL,
-		Language:     "",
+		Language:     language,
 	}
 
-	if len(language) == 0 {
-		returnVal.Language = "tr-tr"
-	} else {
-		returnVal.Language = language[0]
-	}
 	// TODO:: language olarak default bir dil tanımlanacak mı ??? default dil türkçe olarak ayarladı. sorulacak.
 	if city != "" && district != "" {
 
-		err := returnVal.SetLocation(city, district)
+		err := returnVal.SetLocation(city, district, language)
 		if err != nil {
 			return err, nil
 		}
@@ -91,6 +86,7 @@ func (this GoWather) New(ApiKeys string, city string, district string, language 
 			return err, nil
 		}
 	}
+	log.Println(returnVal)
 	return nil, returnVal
 }
 
@@ -135,14 +131,14 @@ func fileIsExists(name string) bool {
 // Is there file end
 
 // Locations Apı begin
-func (this *GoWather) SetLocation(city string, district string) *ErrorStruct {
+func (this *GoWather) SetLocation(city string, district string, language string) *ErrorStruct {
+
 	var savedlocations []models.Location
-	log.Println(3)
 	fileIsExist, savedlocations := readLocations()
 	if fileIsExist {
 		// Sorun yok.
 		for _, item := range savedlocations {
-			if item.AdministrativeArea.EnglishName == city && item.EnglishName == district {
+			if item.AdministrativeArea.EnglishName == city && item.EnglishName == district && item.Language == language {
 				this.Location = item
 				return nil
 			}
@@ -155,19 +151,22 @@ func (this *GoWather) SetLocation(city string, district string) *ErrorStruct {
 			"apikey":   this.GetApiKey(),
 			"q":        city + " " + district,
 			"details":  "true",
-			"language": this.Language,
+			"language": language,
 		}).
 		SetHeader("Content-Type", "application/json").
 		Get(this.LocationURL)
 	if err != nil {
 		return &ErrorStruct{err.Error()}
 	}
+
 	var locations []models.Location
 	err = json.Unmarshal(res.Body(), &locations)
 	if err != nil {
 		return &ErrorStruct{err.Error()}
 	}
+
 	if len(locations) > 0 {
+		locations[0].Language = language
 		this.Location = locations[0]
 		if fileIsExist {
 			// Demekki dosya var ama içinde aradığımmız zaman bizim location'ı bulamadık.
@@ -277,6 +276,7 @@ func (this *GoWather) SetForecast() *ErrorStruct {
 
 	if forecast.Headline.Link != "" {
 		forecast.LocationCode = this.Location.Key
+		forecast.Language = this.Language
 		this.ForeCast = forecast
 		if fileIsExist {
 			//var savedForceCast []models.Forecast
