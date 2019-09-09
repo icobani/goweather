@@ -5,10 +5,10 @@ import (
 	"github.com/icobani/goweather/models"
 	"gopkg.in/resty.v1"
 	"io/ioutil"
-	"log"
 	"net/http"
 	"os"
 	"sort"
+	"strconv"
 	"strings"
 	"time"
 )
@@ -19,8 +19,8 @@ const (
 	forecastURL = baseURL + "/forecasts/v1/daily/1day"
 )
 
-// A GoWather manages communication with the AccuWeather API
-type GoWather struct {
+// A GoWeather manages communication with the AccuWeather API
+type GoWeather struct {
 	BaseURL      string                `json:"base_url"`
 	LocationURL  string                `json:"location_url"`
 	ForecastURL  string                `json:"forecast_url"`
@@ -33,11 +33,11 @@ type GoWather struct {
 	ForeCast     models.Forecast       `json:"fore_cast,omitempty"`
 }
 
-type ErrorStruct struct {
+type ErrorY struct {
 	Error string
 }
 
-func (this GoWather) New(ApiKeys string, city string, district string, language string) (*ErrorStruct, *GoWather) {
+func (this GoWeather) New(ApiKeys string, city string, district string, language string, details bool, metric bool) (*ErrorY, *GoWeather) {
 	// English Characters setting begin
 	city = fixEnglishChars(city)
 	district = fixEnglishChars(district)
@@ -45,10 +45,9 @@ func (this GoWather) New(ApiKeys string, city string, district string, language 
 
 	// apiKeys controllers begin
 	if ApiKeys == "" {
-		return &ErrorStruct{"Api LocationCode is cannot empty"}, nil
+		return &ErrorY{"Api LocationCode is cannot empty"}, nil
 	}
 	// apiKeys controllers end
-	log.Println(2)
 	// apiKeys usages beging
 	KeyUsages := SetApiKeys(ApiKeys)
 	// apiKeys usages end
@@ -65,13 +64,15 @@ func (this GoWather) New(ApiKeys string, city string, district string, language 
 		SetRetryMaxWaitTime(3 * time.Second).
 		SetTimeout(1 * time.Minute).
 		SetContentLength(true)
-	returnVal := &GoWather{
+	returnVal := &GoWeather{
 		ApiKeys:      ApiKeys,
 		ApiKeyUsages: KeyUsages,
 		BaseURL:      baseURL,
 		LocationURL:  locationURL,
 		ForecastURL:  forecastURL,
 		Language:     language,
+		Details:      details,
+		Metric:       metric,
 	}
 
 	// TODO:: language olarak default bir dil tanımlanacak mı ??? default dil türkçe olarak ayarladı. sorulacak.
@@ -86,7 +87,6 @@ func (this GoWather) New(ApiKeys string, city string, district string, language 
 			return err, nil
 		}
 	}
-	log.Println(returnVal)
 	return nil, returnVal
 }
 
@@ -131,7 +131,7 @@ func fileIsExists(name string) bool {
 // Is there file end
 
 // Locations Apı begin
-func (this *GoWather) SetLocation(city string, district string, language string) *ErrorStruct {
+func (this *GoWeather) SetLocation(city string, district string, language string) *ErrorY {
 
 	var savedlocations []models.Location
 	fileIsExist, savedlocations := readLocations()
@@ -156,13 +156,13 @@ func (this *GoWather) SetLocation(city string, district string, language string)
 		SetHeader("Content-Type", "application/json").
 		Get(this.LocationURL)
 	if err != nil {
-		return &ErrorStruct{err.Error()}
+		return &ErrorY{err.Error()}
 	}
 
 	var locations []models.Location
 	err = json.Unmarshal(res.Body(), &locations)
 	if err != nil {
-		return &ErrorStruct{err.Error()}
+		return &ErrorY{err.Error()}
 	}
 
 	if len(locations) > 0 {
@@ -185,7 +185,7 @@ func (this *GoWather) SetLocation(city string, district string, language string)
 		}
 
 	} else {
-		return &ErrorStruct{"City name is missing"}
+		return &ErrorY{"City name is missing"}
 	}
 	return nil
 }
@@ -207,12 +207,12 @@ func readLocations() (bool, []models.Location) {
 	}
 }
 
-func writeLocations(locations []models.Location) *ErrorStruct {
+func writeLocations(locations []models.Location) *ErrorY {
 	var err = os.Remove("locations.json")
 	fileBody, _ := json.MarshalIndent(locations, "", " ")
 	err = ioutil.WriteFile("locations.json", fileBody, 0644)
 	if err != nil {
-		return &ErrorStruct{err.Error()}
+		return &ErrorY{err.Error()}
 	}
 	return nil
 }
@@ -220,18 +220,29 @@ func writeLocations(locations []models.Location) *ErrorStruct {
 // Locations Apı end
 
 // Forecast Apı begin
-func (this *GoWather) SetForecast() *ErrorStruct {
-	log.Println(4)
+func (this *GoWeather) SetForecast() *ErrorY {
 
 	fileIsExist, savedForecast := readForecast()
 	// dosya varsa burası çalışacak
 
 	if fileIsExist {
-		for _, item := range savedForecast {
-			if this.Location.Key == item.LocationCode {
-				this.ForeCast = item
-				//log.Print("Kayıt mevcut", this.ForeCast)
-				return nil
+		for i, item := range savedForecast {
+
+			if this.Location.Key == item.LocationCode &&
+				this.Language == item.Language {
+
+				if time.Now().Format("2006-01-02") == item.DailyForecasts[0].Date[0:10] {
+					this.ForeCast = item
+					//log.Print("Kayıt mevcut", this.ForeCast)
+					return nil
+				} else {
+					savedForecast = RemoveIndex(savedForecast, i)
+					errs := writeForecasts(savedForecast)
+					if errs != nil {
+						return errs
+					}
+					break
+				}
 			}
 		}
 	}
@@ -242,22 +253,19 @@ func (this *GoWather) SetForecast() *ErrorStruct {
 	res, err := resty.R().
 		SetQueryParams(map[string]string{
 			"language": this.Language,
-			"details":  "true",
-			"metric":   "true",
+			"details":  strconv.FormatBool(this.Details),
+			"metric":   strconv.FormatBool(this.Metric),
 			"apikey":   this.GetApiKey(),
 		}).
 		SetHeader("Content-Type", "application/json").
 		Get(this.ForecastURL + "/" + this.Location.Key)
 	if err != nil {
-		return &ErrorStruct{err.Error()}
+		return &ErrorY{err.Error()}
 	}
-	log.Println(res)
-
-	log.Println(res.StatusCode())
 
 	err = json.Unmarshal(res.Body(), &forecast)
 	if err != nil {
-		return &ErrorStruct{err.Error()}
+		return &ErrorY{err.Error()}
 	}
 
 	if res.StatusCode() != http.StatusOK {
@@ -269,9 +277,9 @@ func (this *GoWather) SetForecast() *ErrorStruct {
 		var errst errstr
 		err = json.Unmarshal(res.Body(), &errst)
 		if err != nil {
-			return &ErrorStruct{err.Error()}
+			return &ErrorY{err.Error()}
 		}
-		return &ErrorStruct{errst.Message}
+		return &ErrorY{errst.Message}
 	}
 
 	if forecast.Headline.Link != "" {
@@ -282,7 +290,7 @@ func (this *GoWather) SetForecast() *ErrorStruct {
 			//var savedForceCast []models.Forecast
 			_, savedForceCast := readForecast()
 			if savedForceCast == nil {
-				return &ErrorStruct{"Bir hata oluştu."}
+				return &ErrorY{"Bir hata oluştu."}
 			}
 
 			savedForceCast = append(savedForceCast, forecast)
@@ -299,7 +307,7 @@ func (this *GoWather) SetForecast() *ErrorStruct {
 			}
 		}
 	} else {
-		return &ErrorStruct{"Nedit"}
+		return &ErrorY{"Nedit"}
 	}
 	return nil
 }
@@ -321,14 +329,14 @@ func readForecast() (bool, []models.Forecast) {
 	}
 }
 
-func writeForecasts(forecast []models.Forecast) *ErrorStruct {
+func writeForecasts(forecast []models.Forecast) *ErrorY {
 	var err = os.Remove("forecast.json")
 	//var err = os.Remove("forecast.json")
 	fileBody, _ := json.MarshalIndent(forecast, "", "")
 	err = ioutil.WriteFile("forecast.json", fileBody, 0644)
 	//err = ioutil.WriteFile("forecast.json", fileBody, 0644)
 	if err != nil {
-		return &ErrorStruct{err.Error()}
+		return &ErrorY{err.Error()}
 	}
 	return nil
 }
@@ -374,7 +382,7 @@ func SetApiKeys(ApiKeys string) []models.ApiKeyUsages {
 	return KeyUsages
 }
 
-func (this *GoWather) GetApiKey() string {
+func (this *GoWeather) GetApiKey() string {
 	sort.Slice(this.ApiKeyUsages, func(i, j int) bool {
 		return this.ApiKeyUsages[i].Usage < this.ApiKeyUsages[j].Usage
 	})
@@ -401,14 +409,18 @@ func readApiKeyUsages() (bool, []models.ApiKeyUsages) {
 	}
 }
 
-func writeApiKeyUsages(apiKeyUsages []models.ApiKeyUsages) *ErrorStruct {
+func writeApiKeyUsages(apiKeyUsages []models.ApiKeyUsages) *ErrorY {
 	var err = os.Remove("apiKeyUsages.json")
 	fileBody, _ := json.MarshalIndent(apiKeyUsages, "", " ")
 	err = ioutil.WriteFile("apiKeyUsages.json", fileBody, 0644)
 	if err != nil {
-		return &ErrorStruct{err.Error()}
+		return &ErrorY{err.Error()}
 	}
 	return nil
 }
 
 // APIKEY'S functions end
+
+func RemoveIndex(s []models.Forecast, index int) []models.Forecast {
+	return append(s[:index], s[index+1:]...)
+}
